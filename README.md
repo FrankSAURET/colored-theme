@@ -26,6 +26,9 @@ File Icon Theme: [Material Icon Theme](https://marketplace.visualstudio.com/item
 ### Publisher Theme
 ![PUBLISHER](https://github.com/huacat1017/huacat.office-theme/raw/master/image/publisher.png)
 
+### Red Theme
+![PUBLISHER](https://github.com/huacat1017/huacat.office-theme/raw/master/image/publisher.png)
+
 ### **PREVIEW:** Black Word Theme
 ![DARK WORD](https://github.com/huacat1017/huacat.office-theme/raw/master/image/black-word.png)
 
