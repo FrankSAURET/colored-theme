@@ -1,9 +1,10 @@
 {
-    "name": "office-theme",
-    "displayName": "Office Theme",
-    "description": "Microsoft Office(like) theme for VScode",
+    "name": "office-theme-plus",
+    "displayName": "Office Theme +",
+    "description": "Microsoft Office(like) theme for VScode - fork",
     "icon": "logo.png",
-    "publisher": "huacat",
+    "publisher": "electropol-fr",
+    "version": "1.1.4",
     "engines": {
         "vscode": "^1.42.0"
     },
@@ -22,37 +23,42 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/huacat1017/huacat.office-theme"
+        "url": "https://github.com/FrankSAURET/huacat.office-theme"
     },
     "contributes": {
         "themes": [
             {
-                "label": "Office Theme (Word)",
+                "label": "Office Theme (Word - Blue)",
                 "uiTheme": "vs",
                 "path": "./themes/Colorful/word-color-theme.json"
             },
             {
-                "label": "Office Theme (PowerPoint)",
+                "label": "Office Theme (Red)",
+                "uiTheme": "vs",
+                "path": "./themes/Colorful/red-color-theme.json"
+            },
+            {
+                "label": "Office Theme (PowerPoint - Orange)",
                 "uiTheme": "vs",
                 "path": "./themes/Colorful/powerpoint-color-theme.json"
             },
             {
-                "label": "Office Theme (Excel)",
+                "label": "Office Theme (Excel - Green)",
                 "uiTheme": "vs",
                 "path": "./themes/Colorful/excel-color-theme.json"
             },
             {
-                "label": "Office Theme (OneNote)",
+                "label": "Office Theme (OneNote - Purple)",
                 "uiTheme": "vs",
                 "path": "./themes/Colorful/onenote-color-theme.json"
             },
             {
-                "label": "Office Theme (Access)",
+                "label": "Office Theme (Access - Brown)",
                 "uiTheme": "vs",
                 "path": "./themes/Colorful/access-color-theme.json"
             },
             {
-                "label": "Office Theme (Publisher)",
+                "label": "Office Theme (Publisher - DarkGreen)",
                 "uiTheme": "vs",
                 "path": "./themes/Colorful/publisher-color-theme.json"
             },
@@ -62,6 +68,6 @@
                 "path": "./themes/Black/word-black-color-theme.json"
             }
         ]
-    },
-    "version": "1.1.3"
+    }
+    
 }

@@ -1,4 +1,9 @@
 # Change Log
+## 1.1.4 (2022.2.11)
+### Theme Changes
+- Rename themes with added color name
+### Theme add
+- Added red theme based on powerpoint theme (just bar and button background are changed)
 ## 1.1.3 (2022.2.10)
 ### Theme Changes
 - Renamed Dark Themes to Black ([Reference page](https://support.microsoft.com/en-us/office/change-the-look-and-feel-of-office-63e65e1c-08d4-4dea-820e-335f54672310))
