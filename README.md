@@ -1,6 +1,6 @@
 >**DECLARATION: This is not created by Microsoft. It's unofficial.</span>**
 
-<p align=center><img width=600px src=https://github.com/huacat1017/huacat.office-theme/raw/master/image/welcome.png/></p>
+<p align=center><img width=600px src=https://github.com/FrankSAURET/huacat.office-theme/raw/master/image/welcome.png/></p>
 
 The Microsoft Office 2019 Theme(Almost Full Application) for VS Code is out!
 You can now code on a comfortable UI in VS CODE!
@@ -9,28 +9,28 @@ You can now code on a comfortable UI in VS CODE!
 > Font: [Fira Code](https://github.com/tonsky/FiraCode/releases)\
 File Icon Theme: [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 ### Word Theme
-![WORD](https://github.com/huacat1017/huacat.office-theme/raw/master/image/word.png)
+![WORD](https://github.com/FrankSAURET/huacat.office-theme/raw/master/image/word.png)
 
 ### PowerPoint Theme
-![POWERPOINT](https://github.com/huacat1017/huacat.office-theme/raw/master/image/powerpoint.png)
+![POWERPOINT](https://github.com/FrankSAURET/huacat.office-theme/raw/master/image/powerpoint.png)
 
 ### Excel Theme
-![EXCEL](https://github.com/huacat1017/huacat.office-theme/raw/master/image/excel.png)
+![EXCEL](https://github.com/FrankSAURET/huacat.office-theme/raw/master/image/excel.png)
 
 ### OneNote Theme
-![ONENOTE](https://github.com/huacat1017/huacat.office-theme/raw/master/image/onenote.png)
+![ONENOTE](https://github.com/FrankSAURET/huacat.office-theme/raw/master/image/onenote.png)
 
 ### Access Theme
-![ACCESS](https://github.com/huacat1017/huacat.office-theme/raw/master/image/access.png)
+![ACCESS](https://github.com/FrankSAURET/huacat.office-theme/raw/master/image/access.png)
 
 ### Publisher Theme
-![PUBLISHER](https://github.com/huacat1017/huacat.office-theme/raw/master/image/publisher.png)
+![PUBLISHER](https://github.com/FrankSAURET/huacat.office-theme/raw/master/image/publisher.png)
 
 ### Red Theme
-![PUBLISHER](https://github.com/huacat1017/huacat.office-theme/raw/master/image/publisher.png)
+![RED](https://github.com/FrankSAURET/huacat.office-theme/raw/master/image/red.png)
 
 ### **PREVIEW:** Black Word Theme
-![DARK WORD](https://github.com/huacat1017/huacat.office-theme/raw/master/image/black-word.png)
+![DARK WORD](https://github.com/FrankSAURET/huacat.office-theme/raw/master/image/black-word.png)
 
 ## Installation
 ### 1. Install Office Theme from activity bar
