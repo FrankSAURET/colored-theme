@@ -134,12 +134,12 @@
         // titleBar
         "titleBar.inactiveBackground": "#ffee00",
         "titleBar.activeForeground": "#0027a7",
-        "titleBar.activeBackground": "#c6b963",
+        "titleBar.activeBackground": "#ffe225",
         // text
         "textBlockQuote.background": "#f3f3f3",
         "textBlockQuote.border": "#f0623e",
         "textLink.activeForeground": "#a92b1a",
-        "textLink.foreground": "#ffee00",
+        "textLink.foreground": "#c2b500",
         "textPreformat.foreground": "#70ad47",
         // notification
         "notificationCenterHeader.background": "#ffffff",
@@ -148,7 +148,7 @@
         "notifications.foreground": "#000000",
         // pickerGroup
         "pickerGroup.border": "#d2d2d2",
-        "pickerGroup.foreground": "#ffee00",
+        "pickerGroup.foreground": "#c2b500",
         // panel
         "panel.background": "#f3f3f3",
         "panel.border": "#c6c6c6",
@@ -159,7 +159,7 @@
         "welcomePage.tileBackground": "#f3f3f3",
         "welcomePage.tileHoverBackground": "#d2d2d2",
         "welcomePage.progress.background": "#fafafa",
-        "welcomePage.progress.foreground": "#ffee00",
+        "welcomePage.progress.foreground": "#c2b500",
         "welcomePage.buttonBackground": "#f3f3f3", // deprecated property
         "welcomePage.buttonHoverBackground": "#c6c6c6" // deprecated property
     },
@@ -187,7 +187,7 @@
             "name": "Operators",
             "scope": "keyword.operator",
             "settings": {
-                "foreground": "#ffee00"
+                "foreground": "#5e5e5e"
             }
         },
         {
@@ -292,7 +292,7 @@
                 "punctuation.definition.string.begin.c"
             ],
             "settings": {
-                "foreground": "#ffee00"
+                "foreground": "#002fff"
             }
         },
         {
@@ -318,7 +318,7 @@
                 "punctuation.definition.string.begin.cpp"
             ],
             "settings": {
-                "foreground": "#ffee00"
+                "foreground": "#beb200"
             }
         },
         {

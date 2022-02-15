@@ -4,7 +4,7 @@
     "description": "Microsoft Office(like) theme for VScode - fork",
     "icon": "logo.png",
     "publisher": "electropol-fr",
-    "version": "1.1.5",
+    "version": "1.1.6",
     "engines": {
         "vscode": "^1.42.0"
     },
