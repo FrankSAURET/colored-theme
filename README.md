@@ -1,38 +1,35 @@
->**DECLARATION: This is not created by Microsoft. It's unofficial.</span>**
+<p align=center><img width=600px src=https://github.com/FrankSAURET/colored-theme/raw/master/image/welcome.png/></p>
 
-<p align=center><img width=600px src=https://github.com/FrankSAURET/huacat.office-theme/raw/master/image/welcome.png/></p>
-
-The Microsoft Office 2019 Theme(Almost Full Application) for VS Code is out!
-You can now code on a comfortable UI in VS CODE!
+fork from ([huacat.office-theme](https://github.com/huacat1017/huacat.office-theme))
 
 ## Screenshots
 > Font: [Fira Code](https://github.com/tonsky/FiraCode/releases)\
 File Icon Theme: [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 ### Blue Theme
-![WORD](https://github.com/FrankSAURET/huacat.office-theme/raw/master/image/blue.png)
+![WORD](https://github.com/FrankSAURET/colored-theme/raw/master/image/blue.png)
 
 ### Orange Theme
-![POWERPOINT](https://github.com/FrankSAURET/huacat.office-theme/raw/master/image/orange.png)
+![POWERPOINT](https://github.com/FrankSAURET/colored-theme/raw/master/image/orange.png)
 
 ### Green Theme
-![EXCEL](https://github.com/FrankSAURET/huacat.office-theme/raw/master/image/green.png)
+![EXCEL](https://github.com/FrankSAURET/colored-theme/raw/master/image/green.png)
 
 ### Purple Theme
-![ONENOTE](https://github.com/FrankSAURET/huacat.office-theme/raw/master/image/purple.png)
+![ONENOTE](https://github.com/FrankSAURET/colored-theme/raw/master/image/purple.png)
 
 ### Access Theme
-![ACCESS](https://github.com/FrankSAURET/huacat.office-theme/raw/master/image/vine.png)
+![ACCESS](https://github.com/FrankSAURET/colored-theme/raw/master/image/vine.png)
 
 ### Vine Theme
-![PUBLISHER](https://github.com/FrankSAURET/huacat.office-theme/raw/master/image/darkGreen.png)
+![PUBLISHER](https://github.com/FrankSAURET/colored-theme/raw/master/image/darkGreen.png)
 
 ### Red Theme
-![RED](https://github.com/FrankSAURET/huacat.office-theme/raw/master/image/red.png)
+![RED](https://github.com/FrankSAURET/colored-theme/raw/master/image/red.png)
 ### Yellow Theme
-![YELLOW](https://github.com/FrankSAURET/huacat.office-theme/raw/master/image/yellow.png)
+![YELLOW](https://github.com/FrankSAURET/colored-theme/raw/master/image/yellow.png)
 
 ### **PREVIEW:** Black Word Theme
-![DARK WORD](https://github.com/FrankSAURET/huacat.office-theme/raw/master/image/black-word.png)
+![DARK WORD](https://github.com/FrankSAURET/colored-theme/raw/master/image/black-word.png)
 
 ## Installation
 ### 1. Install Office Theme from activity bar
@@ -47,16 +44,16 @@ File Icon Theme: [Material Icon Theme](https://marketplace.visualstudio.com/item
 - Click View > Command Palette...
 - Type
 ```
-ext install huacat.office-theme
+ext install colored-theme
 ```
 - And you will see this extension
 
 ## Known Issues
-- **Office Black(Dark) Theme Full Version**: I tried to focus on the project, but I often got distracted because of games and other computer problems & projects. Hope that it will be finished before March. ([#11](https://github.com/huacat1017/huacat.office-theme/issues/11))
-- Black(Dark) mode with colored activity bar(sidebar?) ([#11](https://github.com/huacat1017/huacat.office-theme/issues/11))
+- **Office Black(Dark) Theme Full Version**: I tried to focus on the project, but I often got distracted because of games and other computer problems & projects. Hope that it will be finished before March. ([#11](https://github.com/huacat1017/colored-theme/issues/11))
+- Black(Dark) mode with colored activity bar(sidebar?) ([#11](https://github.com/huacat1017/colored-theme/issues/11))
 
 ## Feedback
-If there are any issues or if you want to request a feature, please report on [Issues](https://github.com/huacat1017/huacat.office-theme/issues) or open a [Pull Request](https://github.com/huacat1017/huacat.office-theme/pulls) if you are interested in development, Thank you.
+If there are any issues or if you want to request a feature, please report on [Issues](https://github.com/huacat1017/colored-theme/issues) or open a [Pull Request](https://github.com/huacat1017/colored-theme/pulls) if you are interested in development, Thank you.
 
 You can also correct my grammer.
 
@@ -67,7 +64,7 @@ Follow this steps:
 1. go to terminal
 2. type
 ```
-git clone https://github.com/huacat1017/huacat.office-theme.git
+git clone https://github.com/huacat1017/colored-theme.git
 ```
 3. Wait for a moment, you can develop Office Theme.
 

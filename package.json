@@ -1,10 +1,10 @@
 {
-    "name": "office-theme-plus",
-    "displayName": "Office Theme +",
-    "description": "Microsoft Office(like) theme for VScode - fork",
+    "name": "coloredtheme",
+    "displayName": "Colored Theme",
+    "description": "Fork from huacat.Colored-theme",
     "icon": "logo.png",
     "publisher": "electropol-fr",
-    "version": "1.1.8",
+    "version": "1.2.0",
     "engines": {
         "vscode": "^1.42.0"
     },
@@ -12,65 +12,59 @@
         "Themes"
     ],
     "keywords": [
-        "office theme",
-        "theme",
-        "Word",
-        "PowerPoint",
-        "Excel",
-        "OneNote",
-        "Access",
-        "Publisher"
+        "Colored theme",
+        "theme"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/FrankSAURET/office-theme-plus"
+        "url": "https://github.com/FrankSAURET/colored-theme"
     },
     "contributes": {
         "themes": [
             {
-                "label": "Office Theme (Word - Blue)",
+                "label": "Colored Theme (Blue)",
                 "uiTheme": "vs",
-                "path": "./themes/Colorful/word-color-theme.json"
+                "path": "./themes/Colorful/blue-color-theme.json"
             },
             {
-                "label": "Office Theme (Red)",
+                "label": "Colored Theme (Red)",
                 "uiTheme": "vs",
                 "path": "./themes/Colorful/red-color-theme.json"
             },
             {
-                "label": "Office Theme (PowerPoint - Orange)",
+                "label": "Colored Theme (Orange)",
                 "uiTheme": "vs",
-                "path": "./themes/Colorful/powerpoint-color-theme.json"
+                "path": "./themes/Colorful/orange-color-theme.json"
             },
             {
-                "label": "Office Theme (Yellow)",
+                "label": "Colored Theme (Yellow)",
                 "uiTheme": "vs",
                 "path": "./themes/Colorful/yellow-color-theme.json"
             },            
             {
-                "label": "Office Theme (Excel - Green)",
+                "label": "Colored Theme (Green)",
                 "uiTheme": "vs",
-                "path": "./themes/Colorful/excel-color-theme.json"
+                "path": "./themes/Colorful/green-color-theme.json"
             },
             {
-                "label": "Office Theme (OneNote - Purple)",
+                "label": "Colored Theme (Purple)",
                 "uiTheme": "vs",
-                "path": "./themes/Colorful/onenote-color-theme.json"
+                "path": "./themes/Colorful/purple-color-theme.json"
             },
             {
-                "label": "Office Theme (Access - Brown)",
+                "label": "Colored Theme (Brown)",
                 "uiTheme": "vs",
-                "path": "./themes/Colorful/access-color-theme.json"
+                "path": "./themes/Colorful/brown-color-theme.json"
             },
             {
-                "label": "Office Theme (Publisher - DarkGreen)",
+                "label": "Colored Theme (DarkGreen)",
                 "uiTheme": "vs",
-                "path": "./themes/Colorful/publisher-color-theme.json"
+                "path": "./themes/Colorful/darkgreen-color-theme.json"
             },
             {
-                "label": "Office Black Theme (Word)",
+                "label": "Colored Theme (Black)",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Black/word-black-color-theme.json"
+                "path": "./themes/Black/black-color-theme.json"
             }
         ]
     }
