@@ -6,30 +6,30 @@ fork from ([huacat.office-theme](https://github.com/huacat1017/huacat.office-the
 > Font: [Fira Code](https://github.com/tonsky/FiraCode/releases)\
 File Icon Theme: [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 ### Blue Theme
-![WORD](https://github.com/FrankSAURET/colored-theme/raw/master/image/blue.png)
+![BLUE](https://github.com/FrankSAURET/colored-theme/raw/master/image/blue.png)
 
 ### Orange Theme
-![POWERPOINT](https://github.com/FrankSAURET/colored-theme/raw/master/image/orange.png)
+![ORANGE](https://github.com/FrankSAURET/colored-theme/raw/master/image/orange.png)
 
 ### Green Theme
-![EXCEL](https://github.com/FrankSAURET/colored-theme/raw/master/image/green.png)
+![GREEN](https://github.com/FrankSAURET/colored-theme/raw/master/image/green.png)
 
 ### Purple Theme
-![ONENOTE](https://github.com/FrankSAURET/colored-theme/raw/master/image/purple.png)
+![PURPLE](https://github.com/FrankSAURET/colored-theme/raw/master/image/purple.png)
 
-### Access Theme
-![ACCESS](https://github.com/FrankSAURET/colored-theme/raw/master/image/vine.png)
+### Brown Theme
+![BROWN](https://github.com/FrankSAURET/colored-theme/raw/master/image/brown.png)
 
-### Vine Theme
-![PUBLISHER](https://github.com/FrankSAURET/colored-theme/raw/master/image/darkGreen.png)
+### DarkGreen Theme
+![DARKGREEN](https://github.com/FrankSAURET/colored-theme/raw/master/image/darkGreen.png)
 
 ### Red Theme
 ![RED](https://github.com/FrankSAURET/colored-theme/raw/master/image/red.png)
 ### Yellow Theme
 ![YELLOW](https://github.com/FrankSAURET/colored-theme/raw/master/image/yellow.png)
 
-### **PREVIEW:** Black Word Theme
-![DARK WORD](https://github.com/FrankSAURET/colored-theme/raw/master/image/black-word.png)
+### **PREVIEW:** Black Theme
+![DARK BLACK](https://github.com/FrankSAURET/colored-theme/raw/master/image/darkblack.png)
 
 ## Installation
 ### 1. Install Office Theme from activity bar
