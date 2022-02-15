@@ -4,7 +4,7 @@
     "description": "Microsoft Office(like) theme for VScode - fork",
     "icon": "logo.png",
     "publisher": "electropol-fr",
-    "version": "1.1.4",
+    "version": "1.1.5",
     "engines": {
         "vscode": "^1.42.0"
     },
@@ -42,6 +42,11 @@
                 "uiTheme": "vs",
                 "path": "./themes/Colorful/powerpoint-color-theme.json"
             },
+            {
+                "label": "Office Theme (Yellow)",
+                "uiTheme": "vs",
+                "path": "./themes/Colorful/yellow-color-theme.json"
+            },            
             {
                 "label": "Office Theme (Excel - Green)",
                 "uiTheme": "vs",
