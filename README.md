@@ -8,23 +8,23 @@ You can now code on a comfortable UI in VS CODE!
 ## Screenshots
 > Font: [Fira Code](https://github.com/tonsky/FiraCode/releases)\
 File Icon Theme: [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
-### Word Theme
-![WORD](https://github.com/FrankSAURET/huacat.office-theme/raw/master/image/word.png)
+### Blue Theme
+![WORD](https://github.com/FrankSAURET/huacat.office-theme/raw/master/image/blue.png)
 
-### PowerPoint Theme
-![POWERPOINT](https://github.com/FrankSAURET/huacat.office-theme/raw/master/image/powerpoint.png)
+### Orange Theme
+![POWERPOINT](https://github.com/FrankSAURET/huacat.office-theme/raw/master/image/orange.png)
 
-### Excel Theme
-![EXCEL](https://github.com/FrankSAURET/huacat.office-theme/raw/master/image/excel.png)
+### Green Theme
+![EXCEL](https://github.com/FrankSAURET/huacat.office-theme/raw/master/image/green.png)
 
-### OneNote Theme
-![ONENOTE](https://github.com/FrankSAURET/huacat.office-theme/raw/master/image/onenote.png)
+### Purple Theme
+![ONENOTE](https://github.com/FrankSAURET/huacat.office-theme/raw/master/image/purple.png)
 
 ### Access Theme
-![ACCESS](https://github.com/FrankSAURET/huacat.office-theme/raw/master/image/access.png)
+![ACCESS](https://github.com/FrankSAURET/huacat.office-theme/raw/master/image/vine.png)
 
-### Publisher Theme
-![PUBLISHER](https://github.com/FrankSAURET/huacat.office-theme/raw/master/image/publisher.png)
+### Vine Theme
+![PUBLISHER](https://github.com/FrankSAURET/huacat.office-theme/raw/master/image/darkGreen.png)
 
 ### Red Theme
 ![RED](https://github.com/FrankSAURET/huacat.office-theme/raw/master/image/red.png)
