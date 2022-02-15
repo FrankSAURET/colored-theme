@@ -1,8 +1,9 @@
 # Change Log
-## 1.1.6 (2022.2.15)
+## 1.1.8 (2022.2.15)
 ### Theme add
 - Added yellow theme based on powerpoint theme (just bar and button background are changed)
 ## 1.1.4 (2022.2.11)
+fork from ([huacat.office-theme](https://github.com/huacat1017/huacat.office-theme))
 ### Theme Changes
 - Rename themes with added color name
 ### Theme add

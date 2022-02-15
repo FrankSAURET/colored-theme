@@ -28,6 +28,8 @@ File Icon Theme: [Material Icon Theme](https://marketplace.visualstudio.com/item
 
 ### Red Theme
 ![RED](https://github.com/FrankSAURET/huacat.office-theme/raw/master/image/red.png)
+### Yellow Theme
+![YELLOW](https://github.com/FrankSAURET/huacat.office-theme/raw/master/image/yellow.png)
 
 ### **PREVIEW:** Black Word Theme
 ![DARK WORD](https://github.com/FrankSAURET/huacat.office-theme/raw/master/image/black-word.png)

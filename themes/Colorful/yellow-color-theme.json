@@ -48,7 +48,7 @@
         // extension
         "extensionButton.prominentBackground": "#ffee00",
         "extensionButton.prominentHoverBackground": "#ebca13",
-        "extensionButton.prominentForeground": "#ffffff",
+        "extensionButton.prominentForeground": "#0563c1",
         // git
         "gitDecoration.addedResourceForeground": "#70ad47",
         "gitDecoration.conflictingResourceForeground": "#ffc000",

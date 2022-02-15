@@ -4,7 +4,7 @@
     "description": "Microsoft Office(like) theme for VScode - fork",
     "icon": "logo.png",
     "publisher": "electropol-fr",
-    "version": "1.1.6",
+    "version": "1.1.8",
     "engines": {
         "vscode": "^1.42.0"
     },
@@ -23,7 +23,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/FrankSAURET/huacat.office-theme"
+        "url": "https://github.com/FrankSAURET/office-theme-plus"
     },
     "contributes": {
         "themes": [
