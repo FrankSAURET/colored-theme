@@ -1,4 +1,8 @@
 # Change Log
+## 1.2.3 (2022.3.19)
+### Theme Changes
+- Extension of yellow modifications on all models.
+- Redesign of the logo..
 ## 1.2.2 (2022.3.16)
 ### Theme Changes
 - Minor change in editor apparence (some bold font) just in yellow theme for now.

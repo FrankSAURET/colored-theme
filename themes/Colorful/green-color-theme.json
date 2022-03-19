@@ -187,7 +187,7 @@
 			"name": "Operators",
 			"scope": "keyword.operator",
 			"settings": {
-				"foreground": "#217346"
+				"foreground": "#5e5e5e"
 			}
 		},
 		{
@@ -227,7 +227,8 @@
 				"support.function"
 			],
 			"settings": {
-				"foreground": "#5b9bd5"
+				"fontStyle": "bold",
+				"foreground": "#004a8f"
 			}
 		},
 		{
@@ -238,7 +239,22 @@
 				"support.class"
 			],
 			"settings": {
+				"fontStyle": "bold",
 				"foreground": "#70ad47"
+			}
+		},
+		{
+			"name": "Exceptions",
+			"scope": "entity.name.exception",
+			"settings": {
+				"foreground": "#ff9900"
+			}
+		},
+		{
+			"name": "Sections",
+			"scope": "entity.name.section",
+			"settings": {
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -289,12 +305,10 @@
 				"punctuation.terminator",
 				"punctuation.section",
 				"punctuation.definition.string.end.c",
-				"punctuation.definition.string.begin.c",
-				"punctuation.definition.string.end.cpp",
-				"punctuation.definition.string.begin.cpp"
+				"punctuation.definition.string.begin.c"
 			],
 			"settings": {
-				"foreground": "#217346"
+				"foreground": "#002fff"
 			}
 		},
 		{
@@ -315,10 +329,12 @@
 				"meta.tag",
 				"punctuation.definition.tag.html",
 				"punctuation.definition.tag.begin.html",
-				"punctuation.definition.tag.end.html"
+				"punctuation.definition.string.begin.c",
+				"punctuation.definition.string.end.cpp",
+				"punctuation.definition.string.begin.cpp"
 			],
 			"settings": {
-				"foreground": "#217346"
+				"foreground": "#beb200"
 			}
 		},
 		{
@@ -388,8 +404,15 @@
 			}
 		},
 		{
+			"name": "CSS: Important Keyword",
+			"scope": "keyword.other.important",
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
 			"name": "JSON - LEVEL 0",
-			"scope":[
+			"scope": [
 				"source.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
@@ -398,7 +421,7 @@
 		},
 		{
 			"name": "JSON - Level 1",
-			"scope":[
+			"scope": [
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
@@ -407,7 +430,7 @@
 		},
 		{
 			"name": "JSON - Level 2",
-			"scope":[
+			"scope": [
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
@@ -416,7 +439,7 @@
 		},
 		{
 			"name": "JSON - Level 3",
-			"scope":[
+			"scope": [
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
@@ -425,7 +448,7 @@
 		},
 		{
 			"name": "JSON - Level 4",
-			"scope":[
+			"scope": [
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
@@ -434,7 +457,7 @@
 		},
 		{
 			"name": "JSON - Level 5",
-			"scope":[
+			"scope": [
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
@@ -443,7 +466,7 @@
 		},
 		{
 			"name": "JSON - Level 6",
-			"scope":[
+			"scope": [
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
@@ -452,7 +475,7 @@
 		},
 		{
 			"name": "JSON - Level 7",
-			"scope":[
+			"scope": [
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
@@ -461,7 +484,7 @@
 		},
 		{
 			"name": "JSON - Level 8",
-			"scope":[
+			"scope": [
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
@@ -470,7 +493,7 @@
 		},
 		{
 			"name": "JSON - Level 9",
-			"scope":[
+			"scope": [
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
@@ -479,7 +502,7 @@
 		},
 		{
 			"name": "JSON - Level 10 and other",
-			"scope":[
+			"scope": [
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
@@ -488,7 +511,7 @@
 		},
 		{
 			"name": "Markdown heading",
-			"scope":[
+			"scope": [
 				"markup.heading",
 				"markup.heading entity.name"
 			],
@@ -498,7 +521,7 @@
 		},
 		{
 			"name": "Markdown list",
-			"scope":[
+			"scope": [
 				"markup.list punctuation.definition.list.begin",
 			],
 			"settings": {
@@ -507,7 +530,7 @@
 		},
 		{
 			"name": "Markdown link",
-			"scope":[
+			"scope": [
 				"markup.underline.link",
 			],
 			"settings": {
@@ -516,7 +539,7 @@
 		},
 		{
 			"name": "Markdown bold",
-			"scope":[
+			"scope": [
 				"markup.bold",
 			],
 			"settings": {
@@ -526,7 +549,7 @@
 		},
 		{
 			"name": "Markdown italic",
-			"scope":[
+			"scope": [
 				"markup.italic",
 			],
 			"settings": {
@@ -536,7 +559,7 @@
 		},
 		{
 			"name": "Markdown italic bold",
-			"scope":[
+			"scope": [
 				"markup.italic markup.bold",
 				"markup.bold markup.italic",
 			],
@@ -546,7 +569,7 @@
 		},
 		{
 			"name": "Markdown code",
-			"scope":[
+			"scope": [
 				"text.html.markdown markup.inline.raw"
 			],
 			"settings": {
@@ -555,7 +578,7 @@
 		},
 		{
 			"name": "Markdown quote",
-			"scope":[
+			"scope": [
 				"markup.quote"
 			],
 			"settings": {
