@@ -1,4 +1,4 @@
-<p align=center><img width=600px src=https://github.com/FrankSAURET/colored-theme/raw/master/image/welcome.png/></p>
+<p align=center><img width=600px src=image/welcome.png/></p>
 
 fork from ([huacat.office-theme](https://github.com/huacat1017/huacat.office-theme))
 
