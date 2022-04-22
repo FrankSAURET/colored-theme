@@ -1,7 +1,8 @@
 # Change Log
-## 1.2.4 (2022.4.22)
+## 1.2.5 (2022.4.22)
 - add amber and fuchia theme.
 - rename with color name.
+- Change terminal color for yellow.
 ## 1.2.3 (2022.3.19)
 - Extension of yellow modifications on all models.
 - Redesign of the logo..

@@ -3,5 +3,5 @@
         "*.tpp": "cpp"
     },
     "terminal.integrated.shell.windows": "cmd.exe",
-    "workbench.colorTheme": "Colored Theme (Yellow)"
+    "workbench.colorTheme": "Colored Theme (China blue)"
 }
