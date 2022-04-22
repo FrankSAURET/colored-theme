@@ -28,6 +28,8 @@ File Icon Theme: [Material Icon Theme](https://marketplace.visualstudio.com/item
 ### Yellow Theme
 ![YELLOW](https://github.com/FrankSAURET/colored-theme/raw/master/image/yellow.png)
 
+and so on...
+
 ### **PREVIEW:** Black Theme
 ![DARK BLACK](https://github.com/FrankSAURET/colored-theme/raw/master/image/darkblack.png)
 
@@ -37,6 +39,6 @@ File Icon Theme: [Material Icon Theme](https://marketplace.visualstudio.com/item
 - Click Extensions from activity bar
 - Search for "Colored Theme"
 - Press Install
-- Choose your color choice
+- Choose your color
 - And now you can enjoy Colored Theme!
 

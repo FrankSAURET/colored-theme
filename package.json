@@ -4,7 +4,7 @@
     "description": "Fork from huacat.Colored-theme",
     "icon": "logo.png",
     "publisher": "electropol-fr",
-    "version": "1.2.2",
+    "version": "1.2.4",
     "engines": {
         "vscode": "^1.42.0"
     },
@@ -22,9 +22,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "Colored Theme (Blue)",
+                "label": "Colored Theme (China blue)",
                 "uiTheme": "vs",
-                "path": "./themes/Colorful/blue-color-theme.json"
+                "path": "./themes/Colorful/china-blue-color-theme.json"
             },
             {
                 "label": "Colored Theme (Red)",
@@ -32,34 +32,44 @@
                 "path": "./themes/Colorful/red-color-theme.json"
             },
             {
-                "label": "Colored Theme (Orange)",
+                "label": "Colored Theme (Brown Auburn)",
                 "uiTheme": "vs",
-                "path": "./themes/Colorful/orange-color-theme.json"
+                "path": "./themes/Colorful/auburn-color-theme.json"
             },
             {
                 "label": "Colored Theme (Yellow)",
                 "uiTheme": "vs",
                 "path": "./themes/Colorful/yellow-color-theme.json"
-            },            
-            {
-                "label": "Colored Theme (Green)",
-                "uiTheme": "vs",
-                "path": "./themes/Colorful/green-color-theme.json"
             },
             {
-                "label": "Colored Theme (Purple)",
+                "label": "Colored Theme (Green malachite)",
                 "uiTheme": "vs",
-                "path": "./themes/Colorful/purple-color-theme.json"
+                "path": "./themes/Colorful/green-malachite-color-theme.json"
             },
             {
-                "label": "Colored Theme (Brown)",
+                "label": "Colored Theme (Purple Amethyst)",
                 "uiTheme": "vs",
-                "path": "./themes/Colorful/brown-color-theme.json"
+                "path": "./themes/Colorful/amethyst-color-theme.json"
             },
             {
-                "label": "Colored Theme (DarkGreen)",
+                "label": "Colored Theme (Brown Cognac)",
                 "uiTheme": "vs",
-                "path": "./themes/Colorful/darkgreen-color-theme.json"
+                "path": "./themes/Colorful/cognac-color-theme.json"
+            },
+            {
+                "label": "Colored Theme (Green Peacock)",
+                "uiTheme": "vs",
+                "path": "./themes/Colorful/peacock-color-theme.json"
+            },
+            {
+                "label": "Colored Theme (Amber)",
+                "uiTheme": "vs",
+                "path": "./themes/Colorful/amber-color-theme.json"
+            },
+            {
+                "label": "Colored Theme (Fushia)",
+                "uiTheme": "vs",
+                "path": "./themes/Colorful/fushia-color-theme.json"
             },
             {
                 "label": "Colored Theme (Black)",
@@ -68,5 +78,4 @@
             }
         ]
     }
-    
 }
