@@ -1,4 +1,7 @@
 # Change Log
+## 1.2.7 (2023.6.15)
+- Add color for : Input, Search, Command Center and global setting ( Like huacat),
+- Add Arduino theme (like LintangWisesa).
 ## 1.2.6 (2022.4.22)
 - add amber and fuchia theme.
 - rename with color name.

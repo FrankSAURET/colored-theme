@@ -27,11 +27,15 @@ File Icon Theme: [Material Icon Theme](https://marketplace.visualstudio.com/item
 ![RED](https://github.com/FrankSAURET/colored-theme/raw/master/image/red.png)
 ### Yellow Theme
 ![YELLOW](https://github.com/FrankSAURET/colored-theme/raw/master/image/yellow.png)
+### Arduino Light
+![ARDUINO LIGHT](https://github.com/FrankSAURET/colored-theme/raw/master/image/vscode_arduino.png)
 
 and so on...
 
-### **PREVIEW:** Black Theme
+## **Black Theme**
 ![DARK BLACK](https://github.com/FrankSAURET/colored-theme/raw/master/image/darkblack.png)
+### Arduino Dark
+![ARDUINO DARK](https://github.com/FrankSAURET/colored-theme/raw/master/image/vscode_arduino_dark.png)
 
 ## Installation
 ### 1. Install Colored Theme from activity bar
