@@ -4,7 +4,7 @@
     "description": "Mainly changes the color of the top and left bars to identify multiple instances at a glance.",
     "icon": "logo.png",
     "publisher": "electropol-fr",
-    "version": "1.2.6",
+    "version": "1.2.7",
     "engines": {
         "vscode": "^1.42.0"
     },
@@ -75,6 +75,16 @@
                 "label": "Colored Theme (Black)",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Black/black-color-theme.json"
+            },
+                        {
+                "label": "Arduino light",
+                "uiTheme": "vs",
+                "path": "./themes/Colorful/Arduino-light-theme.json"
+            },
+                        {
+                "label": "Arduino dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Black/Arduino-black-theme.json"
             }
         ]
     }
