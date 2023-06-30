@@ -1,6 +1,17 @@
 {
-	"tokenColors": "./ArduinoDark.tmTheme",
+	"tokenColors": "ArduinoDark.tmTheme",
 	"colors": {
+		// default settings
+		// activity bar
+		"activityBar.background": "#339999",
+		"activityBar.foreground": "#FFFFFF",
+		"activityBarBadge.background": "#FF0000",
+		"activityBarBadge.foreground": "#ffffff",
+		// button
+		"button.foreground": "#ffffff",
+		"button.hoverBackground": "#339999",
+		"button.background": "#266F6F",
+		// editor
 		"editor.background": "#282c34",
 		"editor.foreground": "#abb2bf",
 		"editorError.foreground": "#c24038",
@@ -35,40 +46,38 @@
 		"editorSuggestWidget.border": "#181a1f",
 		"editorSuggestWidget.selectedBackground": "#2c313a",
 		"editorWidget.background": "#21252b",
-		"activityBar.background": "#339999",
-		"activityBar.foreground": "#FFFFFF",
-		"activityBarBadge.background": "#FF0000",
-		"activityBarBadge.foreground": "#ffffff",
-		"sideBar.background": "#FFFFFF",
-		"sideBar.foreground": "#266F6F",
-		"sideBarTitle.foreground": "#bbbbbb",
-		"sideBarSectionHeader.background": "#339999",
-		"sideBarSectionHeader.foreground": "#ffffff",
+		// list
 		"list.activeSelectionBackground": "#FFD700",
 		"list.activeSelectionForeground": "#000000",
 		"list.inactiveSelectionForeground": "#266F6F",
 		"list.inactiveSelectionBackground": "#DCDCDC",
 		"list.hoverForeground": "#000000",
 		"list.hoverBackground": "#50B5B5",
-		"titleBar.activeBackground": "#266F6F",
-		"titleBar.activeForeground": "#ffffff",
-		"titleBar.inactiveBackground": "#50B5B5",
-		"titleBar.border": "#339999",
+		// panel
 		"panelTitle.activeForeground": "#FFFFFF",
 		"panelTitle.activeBorder": "#FFFFFF",
 		"panel.background": "#339999",
 		"panel.border": "#339999",
-		"terminal.foreground": "#ffffff",
-		"terminal.background": "#000000",
-		"terminal.border": "#339999",
+		// side bar
+		"sideBar.background": "#FFFFFF",
+		"sideBar.foreground": "#266F6F",
+		"sideBarTitle.foreground": "#bbbbbb",
+		"sideBarSectionHeader.background": "#339999",
+		"sideBarSectionHeader.foreground": "#ffffff",
+		// status bar
 		"statusBar.background": "#266F6F",
 		"statusBar.border": "#266F6F",
 		"statusBar.foreground": "#ffffff",
 		"statusBarItem.hoverBackground": "#339999",
 		"statusBarItem.activeBackground": "#339999",
-		"button.foreground": "#ffffff",
-		"button.hoverBackground": "#339999",
-		"button.background": "#266F6F"
-	},
-	"name": "Arduino Dark"
+		// terminal
+		"terminal.foreground": "#ffffff",
+		"terminal.background": "#000000",
+		"terminal.border": "#339999",
+		// title bar
+		"titleBar.activeBackground": "#266F6F",
+		"titleBar.activeForeground": "#ffffff",
+		"titleBar.inactiveBackground": "#50B5B5",
+		"titleBar.border": "#339999"
+	}
 }

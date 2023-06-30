@@ -1,6 +1,17 @@
 {
-	"tokenColors": "./ArduinoLight.tmTheme",
+	"tokenColors": "ArduinoLight.tmTheme",
 	"colors": {
+		// default settings
+		// activity Bar
+		"activityBar.background": "#339999",
+		"activityBar.foreground": "#FFFFFF",
+		"activityBarBadge.background": "#FF0000",
+		"activityBarBadge.foreground": "#ffffff",
+		// button
+		"button.foreground": "#ffffff",
+		"button.hoverBackground": "#339999",
+		"button.background": "#266F6F",
+		// editor
 		"editor.background": "#FFFFFF",
 		"editorCursor.foreground": "#339999",
 		"editor.foreground": "#3B3A32",
@@ -12,10 +23,7 @@
 		"editorSuggestWidget.selectedBackground": "#50B5B5",
 		"editorSuggestWidget.highlightForeground": "#ffffff",
 		"editorGroupHeader.tabsBackground": "#339999",
-		"activityBar.background": "#339999",
-		"activityBar.foreground": "#FFFFFF",
-		"activityBarBadge.background": "#FF0000",
-		"activityBarBadge.foreground": "#ffffff",
+		// side bar
 		"sideBar.background": "#FFFFFF",
 		"sideBar.foreground": "#266F6F",
 		"sideBarTitle.foreground": "#bbbbbb",
@@ -39,9 +47,6 @@
 		"statusBar.foreground": "#ffffff",
 		"statusBarItem.hoverBackground": "#339999",
 		"statusBarItem.activeBackground": "#339999",
-		"button.foreground": "#ffffff",
-		"button.hoverBackground": "#339999",
-		"button.background": "#266F6F"
-	},
-	"name": "Arduino Light"
+	
+	}
 }
