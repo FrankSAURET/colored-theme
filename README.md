@@ -3,8 +3,7 @@
 fork from ([huacat.office-theme](https://github.com/huacat1017/huacat.office-theme))
 
 ## Screenshots
-> Font: [Fira Code](https://github.com/tonsky/FiraCode/releases)\
-File Icon Theme: [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+
 ### Blue Theme
 ![BLUE](https://github.com/FrankSAURET/colored-theme/raw/master/image/blue.png)
 
