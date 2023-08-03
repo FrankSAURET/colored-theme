@@ -4,7 +4,7 @@
     "description": "Mainly changes the color of the top and left bars to identify multiple instances at a glance.",
     "icon": "logo.png",
     "publisher": "electropol-fr",
-    "version": "1.2.9",
+    "version": "1.2.10",
     "engines": {
         "vscode": "^1.42.0"
     },
