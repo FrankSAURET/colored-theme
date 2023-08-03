@@ -1,10 +1,10 @@
 {
     "name": "coloredtheme",
     "displayName": "Colored Theme",
-    "description": "Mainly changes the color of the top and left bars to identify multiple instances at a glance.",
+    "description": "Mainly changes the color of the top and left bars to identify multiple instances at a glance. Add Arduino theme.",
     "icon": "logo.png",
     "publisher": "electropol-fr",
-    "version": "1.2.11",
+    "version": "1.3.0",
     "engines": {
         "vscode": "^1.42.0"
     },

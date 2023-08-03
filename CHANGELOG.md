@@ -1,6 +1,7 @@
 # Change Log
-## 1.2.9 - 1.2.10 (2023.8.03)
+## 1.2.9 to 1.3.0 (2023.8.03)
 - Change Arduino themes to those from arduino-ide.
+- Functionnal version for arduino begin with 1.3.0.
 ## 1.2.7 (2023.6.15)
 - Add color for : Input, Search, Command Center and global setting (Like huacat),
 - Change terminal color for all light theme but Arduino.
