@@ -4,7 +4,7 @@
     "description": "Mainly changes the color of the top and left bars to identify multiple instances at a glance. Add Arduino theme.",
     "icon": "logo.png",
     "publisher": "electropol-fr",
-    "version": "1.3.1",
+    "version": "1.3.2",
     "engines": {
         "vscode": "^1.42.0"
     },
@@ -77,12 +77,12 @@
                 "uiTheme": "vs-dark",
                 "path": "./themes/Black/black-color-theme.json"
             },
-                        {
+            {
                 "label": "Arduino light",
                 "uiTheme": "vs",
                 "path": "./themes/Colorful/Arduino-light-color-theme.json"
             },
-                        {
+            {
                 "label": "Arduino dark",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Black/Arduino-dark-color-theme.json"
