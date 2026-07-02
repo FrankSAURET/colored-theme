@@ -1,3 +1,10 @@
 {
-    "workbench.colorTheme": "Colored Theme (Amber)"
+    "workbench.colorTheme": "Colored Theme (Amber)",
+    "chat.tools.terminal.autoApprove": {
+        "code": true,
+        "/^cd 'h:\\\\OneDrive\\\\4 Programation\\\\- VS Code\\\\Extensions\\\\colored-theme\\\\themes\\\\Colorful'; \\$f='amber-color-theme\\.json'; \\$c=\\(Get-Content \\$f -Raw\\) -replace '#70ad47','#077568' -replace '\"sideBar\\.background\": \"#e6e6e6\"','\"sideBar\\.background\": \"#ffffff\"' -replace '\"sideBarSectionHeader\\.background\": \"#e6e6e6\"','\"sideBarSectionHeader\\.background\": \"#ffffff\"'; Set-Content \\$f \\$c; Write-Host \"Done: \\$f\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
 }

@@ -1,4 +1,7 @@
 # Change Log
+## 1.3.1 (2026.7.02)
+- Amélioration mineur (contraste).
+
 ## 1.2.9 to 1.3.0 (2023.8.03)
 - Change Arduino themes to those from arduino-ide.
 - Functionnal version for arduino begin with 1.3.0.

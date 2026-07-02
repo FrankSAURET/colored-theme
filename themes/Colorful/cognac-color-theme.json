@@ -50,7 +50,7 @@
 		"extensionButton.prominentHoverBackground": "#b15d60",
 		"extensionButton.prominentForeground": "#ffffff",
 		// git
-		"gitDecoration.addedResourceForeground": "#70ad47",
+		"gitDecoration.addedResourceForeground": "#077568",
 		"gitDecoration.conflictingResourceForeground": "#ffc000",
 		"gitDecoration.deletedResourceForeground": "#ed7d31",
 		"gitDecoration.ignoredResourceForeground": "#a5a5a5",
@@ -69,8 +69,8 @@
 		// list
 		"list.activeSelectionBackground": "#aeaeae",
 		"list.activeSelectionForeground": "#a02502",
-		"list.dropBackground": "#fadcdd",
-		"list.focusBackground": "#fadcdd",
+		"list.dropBackground": "#ffffff",
+		"list.focusBackground": "#ffffff",
 		"list.focusForeground": "#c75659",
 		"list.highlightForeground": "#c75659d0",
 		"list.hoverBackground": "#c6c6c6",
@@ -138,7 +138,7 @@
 		"terminal.ansiWhite": "#eeeeee",
 		"terminal.ansiBrightBlack": "#808080",
 		"terminal.ansiBrightBlue": "#4472c4",
-		"terminal.ansiBrightGreen": "#70ad47",
+		"terminal.ansiBrightGreen": "#077568",
 		"terminal.ansiBrightCyan": "#5b9bd5",
 		"terminal.ansiBrightRed": "#ed7d31",
 		"terminal.ansiBrightMagenta": "#dac2f7",
@@ -167,7 +167,7 @@
 		"textBlockQuote.border": "#c75659",
 		"textLink.activeForeground": "#912c2f",
 		"textLink.foreground": "#a02502",
-		"textPreformat.foreground": "#70ad47",
+		"textPreformat.foreground": "#077568",
 		// notification
 		"notificationCenterHeader.background": "#ffffff",
 		"notificationCenterHeader.foreground": "#000000",
@@ -273,7 +273,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#70ad47"
+				"foreground": "#077568"
 			}
 		},
 		{
@@ -385,7 +385,7 @@
 				"entity.other.attribute-name.html"
 			],
 			"settings": {
-				"foreground": "#70ad47"
+				"foreground": "#077568"
 			}
 		},
 		{
@@ -434,7 +434,7 @@
 				"support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#70ad47"
+				"foreground": "#077568"
 			}
 		},
 		{
@@ -450,7 +450,7 @@
 				"source.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#70ad47",
+				"foreground": "#077568",
 			}
 		},
 		{
@@ -540,7 +540,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#70ad47"
+				"foreground": "#077568"
 			}
 		},
 		{
@@ -577,7 +577,7 @@
 				"markup.bold",
 			],
 			"settings": {
-				"foreground": "#70ad47",
+				"foreground": "#077568",
 				"fontStyle": "bold"
 			}
 		},
@@ -587,7 +587,7 @@
 				"markup.italic",
 			],
 			"settings": {
-				"foreground": "#70ad47",
+				"foreground": "#077568",
 				"fontStyle": "italic"
 			}
 		},
@@ -622,3 +622,5 @@
 		},
 	]
 }
+
+
