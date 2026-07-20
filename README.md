@@ -45,19 +45,6 @@ With the `workbench.experimental.modernUI` setting on, the **activity bar, title
 
 It is opt-in on VS Code 1.129, but **enabled by default from 1.130**, so you may hit this without having changed anything.
 
-This is not a bug in the theme. The workbench applies its own stylesheet rule:
-
-```css
-.monaco-workbench.floating-panels .part.activitybar,
-.monaco-workbench.floating-panels .part.statusbar,
-.monaco-workbench.floating-panels .part.titlebar {
-   background-color: transparent !important;
-   border-color: transparent !important;
-}
-```
-
-Because of `!important`, no color theme can override it — a theme only supplies color values, never CSS. Menu **text** still gets colored, which is why the bars look half-themed.
-
 To get the colors back, set:
 
 ```jsonc
