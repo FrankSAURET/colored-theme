@@ -1,6 +1,6 @@
 # Change Log
 ## 1.4.1 (2026.7.20)
-- Document the VS Code 1.129+ `workbench.experimental.modernUI` issue in the README: the workbench forces the activity bar, title bar and status bar to transparent, and no theme can override it. Workaround included.
+- Document the VS Code 1.129+ `workbench.experimental.modernUI` issue in the README: the workbench forces the activity bar, title bar and status bar to transparent, and no theme can override it. Enabled by default from 1.130. Workaround included, tracked upstream in microsoft/vscode#326445.
 
 ## 1.4.0 (2026.7.20)
 - Fix auburn theme: invalid hex color `#9d3eoc` (letter `o`) silently ignored by VS Code, now `#9d3e0c`.

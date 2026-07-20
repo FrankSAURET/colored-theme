@@ -9,7 +9,8 @@
 
 1. ✅ Bordures `activityBar.border` / `titleBar.border` validées visuellement — conservées.
 2. ✅ README : section « Known issue » sur `workbench.experimental.modernUI`, avec la règle CSS en cause et le contournement.
-3. ⬜ Issue à ouvrir sur `microsoft/vscode` : le `!important` empêche toute personnalisation par les thèmes (rédigée, en attente de validation avant publication).
+3. ✅ Signalé sur `microsoft/vscode` — pas d'issue créée, le problème était **déjà ouvert** sous [#326445](https://github.com/microsoft/vscode/issues/326445) (« workbench.colorCustomizations stop working after update to V1.130 »). Commentaire technique ajouté avec la règle CSS en cause : [#issuecomment-5019785750](https://github.com/microsoft/vscode/issues/326445#issuecomment-5019785750). Peacock (4M+ utilisateurs) est touché de la même façon.
+4. ⚠️ **En 1.130, `modernUI` est activé PAR DÉFAUT** (constaté sur 1.130.0-insider dans #326445). À la sortie stable, tous les utilisateurs verront les barres grises sans avoir rien activé. La section README devient essentielle.
 
 # v1.4.0 (2026.7.20)
 

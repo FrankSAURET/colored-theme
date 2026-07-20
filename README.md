@@ -41,7 +41,9 @@ and so on...
 
 ## Known issue: VS Code 1.129+ "Modern UI" preview
 
-If you enable the `workbench.experimental.modernUI` setting (VS Code 1.129 and later), the **activity bar, title bar and status bar lose their color** and stay grey — with any theme, not just this one.
+With the `workbench.experimental.modernUI` setting on, the **activity bar, title bar and status bar lose their color** and stay grey — with any theme, not just this one.
+
+It is opt-in on VS Code 1.129, but **enabled by default from 1.130**, so you may hit this without having changed anything.
 
 This is not a bug in the theme. The workbench applies its own stylesheet rule:
 
@@ -62,7 +64,7 @@ To get the colors back, set:
 "workbench.experimental.modernUI": false
 ```
 
-The setting is flagged `experimental`, so this behaviour may still change in a future release.
+Tracked upstream in [microsoft/vscode#326445](https://github.com/microsoft/vscode/issues/326445). The setting is flagged `experimental`, so this behaviour may still change in a future release.
 
 ## Installation
 ### 1. Install Colored Theme from activity bar
