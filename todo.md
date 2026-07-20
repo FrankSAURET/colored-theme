@@ -1,10 +1,15 @@
 # À faire
 
-1. ⬜ Tester le rendu des bordures (`activityBar.border`, `titleBar.border`) ajoutées en 1.4.0 — valider ou annuler via `git revert 5a53840`.
-2. ⏳ modernUI : barres forcées transparentes par le workbench, non corrigeable côté thème. Éventuellement ouvrir un issue sur `microsoft/vscode` tant que la fonctionnalité est `experimental`.
-3. ⬜ Documenter dans le README le réglage `workbench.experimental.modernUI: false` (les utilisateurs vont remonter le « bug ».)
+1. ⬜ Publier 1.4.0 sur le Marketplace — bloqué : `VSCE_PAT` absent de l'environnement. Nécessite `vsce login electropol-fr` ou le PAT.
+2. ⬜ Corriger le remote git : pointe encore sur `huacat.office-theme`, GitHub redirige vers `colored-theme`. `git remote set-url origin https://github.com/FrankSAURET/colored-theme.git`
 
 ---
+
+# v1.4.1 (2026.7.20)
+
+1. ✅ Bordures `activityBar.border` / `titleBar.border` validées visuellement — conservées.
+2. ✅ README : section « Known issue » sur `workbench.experimental.modernUI`, avec la règle CSS en cause et le contournement.
+3. ⬜ Issue à ouvrir sur `microsoft/vscode` : le `!important` empêche toute personnalisation par les thèmes (rédigée, en attente de validation avant publication).
 
 # v1.4.0 (2026.7.20)
 

@@ -39,6 +39,31 @@ and so on...
 ### Arduino Dark
 ![ARDUINO DARK](https://github.com/FrankSAURET/colored-theme/raw/master/image/vscode_arduino_dark.png)
 
+## Known issue: VS Code 1.129+ "Modern UI" preview
+
+If you enable the `workbench.experimental.modernUI` setting (VS Code 1.129 and later), the **activity bar, title bar and status bar lose their color** and stay grey — with any theme, not just this one.
+
+This is not a bug in the theme. The workbench applies its own stylesheet rule:
+
+```css
+.monaco-workbench.floating-panels .part.activitybar,
+.monaco-workbench.floating-panels .part.statusbar,
+.monaco-workbench.floating-panels .part.titlebar {
+   background-color: transparent !important;
+   border-color: transparent !important;
+}
+```
+
+Because of `!important`, no color theme can override it — a theme only supplies color values, never CSS. Menu **text** still gets colored, which is why the bars look half-themed.
+
+To get the colors back, set:
+
+```jsonc
+"workbench.experimental.modernUI": false
+```
+
+The setting is flagged `experimental`, so this behaviour may still change in a future release.
+
 ## Installation
 ### 1. Install Colored Theme from activity bar
 - Launch VS Code
