@@ -1,7 +1,6 @@
 # À faire
 
-1. ⬜ Publier 1.4.0 sur le Marketplace — bloqué : `VSCE_PAT` absent de l'environnement. Nécessite `vsce login electropol-fr` ou le PAT.
-2. ⬜ Corriger le remote git : pointe encore sur `huacat.office-theme`, GitHub redirige vers `colored-theme`. `git remote set-url origin https://github.com/FrankSAURET/colored-theme.git`
+1. ⬜ Publier **1.4.1** sur le Marketplace — bloqué : `VSCE_PAT` absent de l'environnement, `vsce login` exige un terminal interactif. Depuis un terminal : `npx @vscode/vsce publish`. À faire avant la sortie stable de 1.130 (cf. point 5 ci-dessous).
 
 ---
 
@@ -10,7 +9,8 @@
 1. ✅ Bordures `activityBar.border` / `titleBar.border` validées visuellement — conservées.
 2. ✅ README : section « Known issue » sur `workbench.experimental.modernUI`, avec la règle CSS en cause et le contournement.
 3. ✅ Signalé sur `microsoft/vscode` — pas d'issue créée, le problème était **déjà ouvert** sous [#326445](https://github.com/microsoft/vscode/issues/326445) (« workbench.colorCustomizations stop working after update to V1.130 »). Commentaire technique ajouté avec la règle CSS en cause : [#issuecomment-5019785750](https://github.com/microsoft/vscode/issues/326445#issuecomment-5019785750). Peacock (4M+ utilisateurs) est touché de la même façon.
-4. ⚠️ **En 1.130, `modernUI` est activé PAR DÉFAUT** (constaté sur 1.130.0-insider dans #326445). À la sortie stable, tous les utilisateurs verront les barres grises sans avoir rien activé. La section README devient essentielle.
+4. ✅ Remote git corrigé : `huacat.office-theme` → `colored-theme`. Plus de redirection GitHub. (`package.json` pointait déjà sur la bonne URL.)
+5. ⚠️ **En 1.130, `modernUI` est activé PAR DÉFAUT** (constaté sur 1.130.0-insider dans #326445). À la sortie stable, tous les utilisateurs verront les barres grises sans avoir rien activé. La section README devient essentielle.
 
 # v1.4.0 (2026.7.20)
 
