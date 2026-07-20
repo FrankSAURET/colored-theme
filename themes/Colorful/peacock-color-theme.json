@@ -2,6 +2,8 @@
 	"name": "peacock-color-theme",
 	"type": "light",
 	"colors": {
+		"activityBar.border": "#38847d",
+		"titleBar.border": "#38847d",
 		"titleBar.inactiveForeground": "#a6c5c2",
 		// default settings
 		"focusBorder": "#ff000000",

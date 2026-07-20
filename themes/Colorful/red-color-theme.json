@@ -2,6 +2,8 @@
     "name": "red-color-theme",
     "type": "light",
     "colors": {
+        "activityBar.border": "#ff5024",
+        "titleBar.border": "#ff5024",
         "titleBar.inactiveForeground": "#f4e9e7",
         // default settings
         "focusBorder": "#ff000000",

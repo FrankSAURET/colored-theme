@@ -2,6 +2,8 @@
   "name": "Arduino light",
   "type": "light",
   "colors": {
+    "activityBar.border": "#cbcfcf",
+    "titleBar.border": "#248184",
     "titleBar.inactiveBackground": "#006d70",
     "titleBar.inactiveForeground": "#94c1c2",
     "menu.background": "#f3f3f3",

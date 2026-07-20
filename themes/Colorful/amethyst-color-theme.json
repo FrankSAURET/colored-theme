@@ -2,6 +2,8 @@
 	"name": "amethyst-color-theme",
 	"type": "light",
 	"colors": {
+		"activityBar.border": "#824d9f",
+		"titleBar.border": "#824d9f",
 		"titleBar.inactiveForeground": "#bea5cb",
 		// default settings
 		"focusBorder": "#ff000000",

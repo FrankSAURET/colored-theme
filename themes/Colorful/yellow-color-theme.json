@@ -2,6 +2,8 @@
     "name": "yellow-color-theme",
     "type": "light",
     "colors": {
+        "activityBar.border": "#dbcd00",
+        "titleBar.border": "#dbc220",
         "titleBar.inactiveForeground": "#667764",
         // default settings
         "focusBorder": "#ff000000",

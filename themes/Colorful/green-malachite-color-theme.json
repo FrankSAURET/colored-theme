@@ -2,6 +2,8 @@
 	"name": "green-malachite-color-theme",
 	"type": "light",
 	"colors": {
+		"activityBar.border": "#378861",
+		"titleBar.border": "#378861",
 		"titleBar.inactiveForeground": "#a6c7b7",
 		// default settings
 		"focusBorder": "#000000",

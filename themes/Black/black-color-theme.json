@@ -2,6 +2,8 @@
 	"name": "black-theme",
 	"type": "dark",
 	"colors": {
+		"activityBar.border": "#525252",
+		"titleBar.border": "#2c2c2c",
 		// default settings
 		"focusBorder": "#ffffffff",
 		"foreground": "#ffffff",

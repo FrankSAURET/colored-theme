@@ -2,6 +2,8 @@
 	"name": "auburn-color-theme",
 	"type": "light",
 	"colors": {
+		"activityBar.border": "#e02487",
+		"titleBar.border": "#e02487",
 		"titleBar.inactiveForeground": "#eec2d9",
 		// default settings
 		"focusBorder": "#ff000000",

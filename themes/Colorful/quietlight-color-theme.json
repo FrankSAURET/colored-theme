@@ -481,6 +481,8 @@
         }
     ],
     "colors": {
+        "activityBar.border": "#ccccd3",
+        "titleBar.border": "#a99db9",
         "titleBar.inactiveBackground": "#c4b7d7",
         "menu.background": "#f3f3f3",
         "menu.foreground": "#262626",
