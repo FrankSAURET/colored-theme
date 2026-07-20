@@ -1,8 +1,12 @@
 # À faire
 
-1. ⬜ Publier **1.4.1** sur le Marketplace — bloqué : `VSCE_PAT` absent de l'environnement, `vsce login` exige un terminal interactif. Depuis un terminal : `npx @vscode/vsce publish`. À faire avant la sortie stable de 1.130 (cf. point 5 ci-dessous).
+1. ⬜ Publier **1.4.2** sur le Marketplace : `npx @vscode/vsce publish` depuis un terminal (`VSCE_PAT` absent de l'environnement Claude, `vsce login` exige un terminal interactif). À faire avant la sortie stable de 1.130, où `modernUI` devient actif par défaut (cf. v1.4.1 point 5).
 
 ---
+
+# v1.4.2 (2026.7.20)
+
+1. ✅ Bump 1.4.2 : la 1.4.1 avait été publiée avant la mise à jour du README, la version au Marketplace n'avait donc pas la section modernUI. Republication nécessaire.
 
 # v1.4.1 (2026.7.20)
 
