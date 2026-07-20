@@ -2,6 +2,7 @@
 	"name": "china-blue-color-theme",
 	"type": "light",
 	"colors": {
+		"titleBar.inactiveForeground": "#a3b3cd",
 		// default settings
 		"focusBorder": "#ff000000",
 		"foreground": "#000000",

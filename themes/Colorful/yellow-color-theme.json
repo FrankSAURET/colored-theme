@@ -2,6 +2,7 @@
     "name": "yellow-color-theme",
     "type": "light",
     "colors": {
+        "titleBar.inactiveForeground": "#667764",
         // default settings
         "focusBorder": "#ff000000",
         "foreground": "#000000",

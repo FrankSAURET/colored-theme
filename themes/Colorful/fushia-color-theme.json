@@ -2,6 +2,7 @@
 	"name": "auburn-color-theme",
 	"type": "light",
 	"colors": {
+		"titleBar.inactiveForeground": "#eec2d9",
 		// default settings
 		"focusBorder": "#ff000000",
 		"foreground": "#000000",

@@ -1,7 +1,13 @@
 {
   "name": "Arduino light",
-  "type": "default",
+  "type": "light",
   "colors": {
+    "titleBar.inactiveBackground": "#006d70",
+    "titleBar.inactiveForeground": "#94c1c2",
+    "menu.background": "#f3f3f3",
+    "menu.foreground": "#262626",
+    "activityBarBadge.background": "#4e5b61",
+    "activityBarBadge.foreground": "#ffffff",
     "list.highlightForeground": "#008184",
     "list.activeSelectionForeground": "#4e5b61",
     "list.activeSelectionBackground": "#00818433",

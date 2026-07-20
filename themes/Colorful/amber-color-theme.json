@@ -2,6 +2,7 @@
     "name": "amber-color-theme",
     "type": "light",
     "colors": {
+        "titleBar.inactiveForeground": "#bc3b72",
         // default settings
         "focusBorder": "#ff000000",
         "foreground": "#000000",

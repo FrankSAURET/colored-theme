@@ -2,6 +2,7 @@
 	"name": "peacock-color-theme",
 	"type": "light",
 	"colors": {
+		"titleBar.inactiveForeground": "#a6c5c2",
 		// default settings
 		"focusBorder": "#ff000000",
 		"foreground": "#000000",

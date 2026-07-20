@@ -2,6 +2,12 @@
   "name": "Arduino dark",
   "type": "dark",
   "colors": {
+    "titleBar.inactiveBackground": "#171e21",
+    "titleBar.inactiveForeground": "#8c9495",
+    "menu.background": "#363636",
+    "menu.foreground": "#ffffff",
+    "activityBarBadge.background": "#dae3e3",
+    "activityBarBadge.foreground": "#171e21",
     "list.highlightForeground": "#0ca1a6",
     "list.activeSelectionForeground": "#dae3e3",
     "list.activeSelectionBackground": "#0ca1a64d",

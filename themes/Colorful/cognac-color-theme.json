@@ -2,6 +2,7 @@
 	"name": "cognac-color-theme",
 	"type": "light",
 	"colors": {
+		"titleBar.inactiveForeground": "#d2a193",
 		// default settings
 		"focusBorder": "#ff000000",
 		"foreground": "#000000",

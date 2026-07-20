@@ -2,6 +2,7 @@
 	"name": "green-malachite-color-theme",
 	"type": "light",
 	"colors": {
+		"titleBar.inactiveForeground": "#a6c7b7",
 		// default settings
 		"focusBorder": "#000000",
 		"foreground": "#000000",

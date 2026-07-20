@@ -481,6 +481,14 @@
         }
     ],
     "colors": {
+        "titleBar.inactiveBackground": "#c4b7d7",
+        "menu.background": "#f3f3f3",
+        "menu.foreground": "#262626",
+        "menubar.selectionBackground": "#f3f3f3",
+        "menubar.selectionForeground": "#262626",
+        "activityBar.inactiveForeground": "#a89ac1",
+        "activityBarBadge.foreground": "#ffffff",
+        "titleBar.activeForeground": "#262626",
         "focusBorder": "#A6B39B",
         "pickerGroup.foreground": "#A6B39B",
         "pickerGroup.border": "#749351",
