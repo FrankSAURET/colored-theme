@@ -6,7 +6,7 @@
 		"titleBar.border": "#e02487",
 		"titleBar.inactiveForeground": "#eec2d9",
 		// default settings
-		"focusBorder": "#ff000000",
+		"focusBorder": "#db0073",
 		"foreground": "#000000",
 		"selection.background": "#c6c6c6",
 		// activity Bar

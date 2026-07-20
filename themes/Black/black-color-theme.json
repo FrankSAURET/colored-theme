@@ -5,7 +5,7 @@
 		"activityBar.border": "#525252",
 		"titleBar.border": "#2c2c2c",
 		// default settings
-		"focusBorder": "#ffffffff",
+		"focusBorder": "#363636",
 		"foreground": "#ffffff",
 		"selection.background": "#484644",
 		// activity Bar
