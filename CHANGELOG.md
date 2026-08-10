@@ -1,4 +1,10 @@
 # Change Log
+## 2026.8.1 (2026.8.10)
+- Modernize all 14 themes with colors for Command Center, Sticky Scroll, indentation guides, Inlay Hints, Testing, Chat, and bracket highlighting.
+- Remove the deprecated `welcomePage.buttonBackground` and `welcomePage.buttonHoverBackground` color keys.
+- Add JSONC validation for all theme files with `npm run validate:themes`.
+- Fix the missing `light` type declaration in Quiet Light.
+
 ## 2026.8.0 (2026.8.10)
 - Add automatic local theme initialization: when a folder is opened or added to a workspace, the global `workbench.colorTheme` is copied to `.vscode/settings.json` if no local value exists.
 - Add the `colored-theme.initializeLocalTheme` setting, enabled by default, to disable local theme initialization.
