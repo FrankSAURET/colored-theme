@@ -1,4 +1,7 @@
 # Change Log
+## 1.4.3 (2026.7.21)
+- add property focusBorder to all but quietlight.
+
 ## 1.4.2 (2026.7.20)
 - Document the VS Code 1.129+ `workbench.experimental.modernUI` issue in the README: the workbench forces the activity bar, title bar and status bar to transparent, and no color theme can override it. Enabled by default from 1.130. Workaround included, tracked upstream in microsoft/vscode#326445.
 
