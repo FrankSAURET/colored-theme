@@ -1,8 +1,15 @@
 # À faire
 
-1. ⬜ Publier **1.4.2** sur le Marketplace : `npx @vscode/vsce publish` depuis un terminal (`VSCE_PAT` absent de l'environnement Claude, `vsce login` exige un terminal interactif). À faire avant la sortie stable de 1.130, où `modernUI` devient actif par défaut (cf. v1.4.1 point 5).
+1. ⬜ Publier `2026.8.0` sur le Marketplace.
 
 ---
+
+# v2026.8.0 (2026.8.10)
+
+1. ✅ Ajout de l'initialisation de `.vscode/settings.json` à l'ouverture ou l'ajout d'un dossier workspace.
+2. ✅ Ajout du réglage `colored-theme.initializeLocalTheme`, activé par défaut.
+3. ✅ Bump de version `2026.8.0`.
+4. ✅ Documentation du réglage dans le README.
 
 # v1.4.2 (2026.7.20)
 

@@ -53,6 +53,16 @@ To get the colors back, set:
 
 Tracked upstream in [microsoft/vscode#326445](https://github.com/microsoft/vscode/issues/326445). The setting is flagged `experimental`, so this behaviour may still change in a future release.
 
+## Local theme setting
+
+When a folder is opened or added to a VS Code workspace, Colored Theme creates `.vscode/settings.json` when needed and copies the global `workbench.colorTheme` into it. An existing local theme setting is never replaced.
+
+Set the following setting to `false` to disable this behaviour:
+
+```jsonc
+"colored-theme.initializeLocalTheme": false
+```
+
 ## Installation
 ### 1. Install Colored Theme from activity bar
 - Launch VS Code

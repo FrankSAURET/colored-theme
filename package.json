@@ -4,7 +4,11 @@
     "description": "Mainly changes the color of the top and left bars to identify multiple instances at a glance. Add Arduino theme.",
     "icon": "logo.png",
     "publisher": "electropol-fr",
-    "version": "1.4.2",
+    "version": "2026.8.0",
+    "main": "./dist/extension.js",
+    "activationEvents": [
+        "onStartupFinished"
+    ],
     "engines": {
         "vscode": "^1.42.0"
     },
@@ -87,6 +91,25 @@
                 "uiTheme": "vs-dark",
                 "path": "./themes/Black/Arduino-dark-color-theme.json"
             }
-        ]
+        ],
+        "configuration": {
+            "title": "Colored Theme",
+            "properties": {
+                "colored-theme.initializeLocalTheme": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "Create a local theme setting for newly opened workspace folders."
+                }
+            }
+        }
+    },
+    "scripts": {
+        "compile": "tsc -p ./",
+        "vscode:prepublish": "npm run compile"
+    },
+    "devDependencies": {
+        "@types/node": "^22.0.0",
+        "@types/vscode": "^1.42.0",
+        "typescript": "^5.7.0"
     }
 }
