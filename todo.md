@@ -10,6 +10,7 @@
 2. ✅ Ajout du réglage `colored-theme.initializeLocalTheme`, activé par défaut.
 3. ✅ Bump de version `2026.8.0`.
 4. ✅ Documentation du réglage dans le README.
+5. ✅ CHANGELOG : ajout des notes de version et de l'explication CalVer.
 
 # v1.4.2 (2026.7.20)
 

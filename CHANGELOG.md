@@ -1,4 +1,9 @@
 # Change Log
+## 2026.8.0 (2026.8.10)
+- Add automatic local theme initialization: when a folder is opened or added to a workspace, the global `workbench.colorTheme` is copied to `.vscode/settings.json` if no local value exists.
+- Add the `colored-theme.initializeLocalTheme` setting, enabled by default, to disable local theme initialization.
+- Switch versioning to CalVer (`year.month.increment`) so releases are ordered by their release date. The increment resets to `0` each month.
+
 ## 1.4.3 (2026.7.21)
 - add property focusBorder to all but quietlight.
 
