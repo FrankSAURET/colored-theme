@@ -17,6 +17,18 @@
 		"activityBar.dropBorder": "#ffffff",
 		"activityBarBadge.background": "#ededed",
 		"activityBarBadge.foreground": "#363636",
+		"commandCenter.background": "#363636",
+		"commandCenter.foreground": "#ffffff",
+		"commandCenter.border": "#2b579a",
+		"commandCenter.activeBackground": "#262626",
+		"commandCenter.activeForeground": "#ffffff",
+		"commandCenter.activeBorder": "#3e6db5",
+		"commandCenter.inactiveForeground": "#ededed",
+		"commandCenter.inactiveBorder": "#484644",
+		"editorStickyScroll.background": "#323130", "editorStickyScrollHover.background": "#484644", "editorStickyScroll.border": "#484644", "editorStickyScroll.shadow": "#00000080",
+		"editorIndentGuide.background1": "#484644", "editorIndentGuide.activeBackground1": "#3e6db5", "editorInlayHint.background": "#323130", "editorInlayHint.foreground": "#ededed",
+		"testing.iconPassed": "#70ad47", "testing.iconFailed": "#ed7d31", "testing.iconSkipped": "#a5a5a5", "chat.requestBackground": "#323130", "chat.requestBorder": "#484644",
+		"editorBracketHighlight.foreground1": "#3e6db5", "editorBracketPairGuide.background1": "#484644", "editorBracketPairGuide.activeBackground1": "#3e6db5",
 		// button
 		"button.background": "#2b579a",
 		"button.foreground": "#ffffff",
@@ -164,9 +176,7 @@
 		"welcomePage.tileHoverBackground": "#666666",
 		"welcomePage.tileShadow": "#00000000",
 		"welcomePage.progress.background": "#262626",
-		"welcomePage.progress.foreground": "#2b579a",
-		"welcomePage.buttonBackground": "#363636",// deprecated property
-		"welcomePage.buttonHoverBackground": "#484644",// deprecated property
+		"welcomePage.progress.foreground": "#2b579a"
 	},
 	"tokenColors": [
 		{

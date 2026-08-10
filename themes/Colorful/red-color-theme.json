@@ -161,6 +161,10 @@
         "commandCenter.activeBorder": "#ff3300",
         "commandCenter.inactiveForeground": "#ff3300",
         "commandCenter.inactiveBorder": "#ff3300",
+        "editorStickyScroll.background": "#f3f3f3", "editorStickyScrollHover.background": "#c6c6c6", "editorStickyScroll.border": "#d2d2d2", "editorStickyScroll.shadow": "#00000020",
+        "editorIndentGuide.background1": "#d2d2d2", "editorIndentGuide.activeBackground1": "#ff3300", "editorInlayHint.background": "#f3f3f3", "editorInlayHint.foreground": "#444444",
+        "testing.iconPassed": "#077568", "testing.iconFailed": "#ed7d31", "testing.iconSkipped": "#a5a5a5", "chat.requestBackground": "#f3f3f3", "chat.requestBorder": "#d2d2d2",
+        "editorBracketHighlight.foreground1": "#ff3300", "editorBracketPairGuide.background1": "#d2d2d2", "editorBracketPairGuide.activeBackground1": "#ff3300",
         // titleBar
         "titleBar.inactiveBackground": "#ff3300",
         "titleBar.activeForeground": "#f3f3f3",

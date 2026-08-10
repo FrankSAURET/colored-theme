@@ -1,5 +1,6 @@
 {
     "name": "Quiet Light",
+    "type": "light",
     "tokenColors": [
         {
             "settings": {
@@ -488,6 +489,18 @@
         "menu.foreground": "#262626",
         "menubar.selectionBackground": "#f3f3f3",
         "menubar.selectionForeground": "#262626",
+        "commandCenter.background": "#EDEDF5",
+        "commandCenter.foreground": "#705697",
+        "commandCenter.border": "#705697",
+        "commandCenter.activeBackground": "#F5F5F5",
+        "commandCenter.activeForeground": "#333333",
+        "commandCenter.activeBorder": "#705697",
+        "commandCenter.inactiveForeground": "#705697",
+        "commandCenter.inactiveBorder": "#c4b7d7",
+        "editorStickyScroll.background": "#F5F5F5", "editorStickyScrollHover.background": "#e0e0e0", "editorStickyScroll.border": "#c9d0d9", "editorStickyScroll.shadow": "#00000020",
+        "editorIndentGuide.background1": "#aaaaaa60", "editorIndentGuide.activeBackground1": "#705697", "editorInlayHint.background": "#f0f0f7", "editorInlayHint.foreground": "#333333",
+        "testing.iconPassed": "#448C27", "testing.iconFailed": "#cd3131", "testing.iconSkipped": "#AAAAAA", "chat.requestBackground": "#f0f0f7", "chat.requestBorder": "#c9d0d9",
+        "editorBracketHighlight.foreground1": "#705697", "editorBracketPairGuide.background1": "#aaaaaa60", "editorBracketPairGuide.activeBackground1": "#705697",
         "activityBar.inactiveForeground": "#a89ac1",
         "activityBarBadge.foreground": "#ffffff",
         "titleBar.activeForeground": "#262626",

@@ -161,6 +161,10 @@
 		"commandCenter.activeBorder": "#2a5293",
 		"commandCenter.inactiveForeground": "#2a5293",
 		"commandCenter.inactiveBorder": "#2a5293",
+		"editorStickyScroll.background": "#f3f3f3", "editorStickyScrollHover.background": "#c6c6c6", "editorStickyScroll.border": "#d2d2d2", "editorStickyScroll.shadow": "#00000020",
+		"editorIndentGuide.background1": "#d2d2d2", "editorIndentGuide.activeBackground1": "#2a5293", "editorInlayHint.background": "#f3f3f3", "editorInlayHint.foreground": "#444444",
+		"testing.iconPassed": "#077568", "testing.iconFailed": "#ed7d31", "testing.iconSkipped": "#a5a5a5", "chat.requestBackground": "#f3f3f3", "chat.requestBorder": "#d2d2d2",
+		"editorBracketHighlight.foreground1": "#2a5293", "editorBracketPairGuide.background1": "#d2d2d2", "editorBracketPairGuide.activeBackground1": "#2a5293",
 		// notification
 		"notificationCenterHeader.background": "#ffffff",
 		"notificationCenterHeader.foreground": "#000000",
@@ -189,9 +193,7 @@
 		"welcomePage.tileBackground": "#f3f3f3",
 		"welcomePage.tileHoverBackground": "#d2d2d2",
 		"welcomePage.progress.background": "#fafafa",
-		"welcomePage.progress.foreground": "#2a5293",
-		"welcomePage.buttonBackground": "#f3f3f3",// deprecated property
-		"welcomePage.buttonHoverBackground": "#c6c6c6"// deprecated property
+		"welcomePage.progress.foreground": "#2a5293"
 	},
 	"tokenColors": [
 		{

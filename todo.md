@@ -1,8 +1,16 @@
 # À faire
 
-1. ✅ Publier `2026.8.0` sur le Marketplace.
+1. ⬜ Publier `2026.8.1` sur le Marketplace.
 
 ---
+
+# v2026.8.1 (2026.8.10)
+
+1. ✅ Retrait des 12 clés `welcomePage.button*` dépréciées.
+2. ✅ Ajout des couleurs Command Center, Sticky Scroll, guides, Inlay Hints, Testing, Chat et brackets dans les 14 thèmes.
+3. ✅ Ajout de la validation JSONC des thèmes via `npm run validate:themes`.
+4. ✅ Correction de Quietlight : type `light` manquant.
+5. ✅ Bump de version `2026.8.1`.
 
 # v2026.8.0 (2026.8.10)
 
