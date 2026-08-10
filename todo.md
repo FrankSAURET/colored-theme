@@ -1,6 +1,6 @@
 # À faire
 
-1. ⬜ Publier `2026.8.0` sur le Marketplace.
+1. ✅ Publier `2026.8.0` sur le Marketplace.
 
 ---
 
