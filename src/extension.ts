@@ -10,8 +10,12 @@ export function activate(context: vscode.ExtensionContext): void {
 
         const workbenchConfiguration = vscode.workspace.getConfiguration("workbench", folder.uri);
         const colorTheme = workbenchConfiguration.inspect<string>("colorTheme");
+        const isMultiRootWorkspace = vscode.workspace.workspaceFile !== undefined;
+        const hasLocalValue = isMultiRootWorkspace
+            ? colorTheme?.workspaceFolderValue !== undefined
+            : colorTheme?.workspaceValue !== undefined;
 
-        if (colorTheme?.workspaceFolderValue !== undefined) {
+        if (hasLocalValue) {
             return;
         }
 
@@ -25,7 +29,9 @@ export function activate(context: vscode.ExtensionContext): void {
             await workbenchConfiguration.update(
                 "colorTheme",
                 globalTheme,
-                vscode.ConfigurationTarget.WorkspaceFolder
+                isMultiRootWorkspace
+                    ? vscode.ConfigurationTarget.WorkspaceFolder
+                    : vscode.ConfigurationTarget.Workspace
             );
         } catch (error) {
             console.warn(`Colored Theme: impossible d'initialiser ${folder.uri.fsPath}`, error);

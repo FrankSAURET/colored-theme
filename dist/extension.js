@@ -45,7 +45,11 @@ function activate(context) {
         }
         const workbenchConfiguration = vscode.workspace.getConfiguration("workbench", folder.uri);
         const colorTheme = workbenchConfiguration.inspect("colorTheme");
-        if ((colorTheme === null || colorTheme === void 0 ? void 0 : colorTheme.workspaceFolderValue) !== undefined) {
+        const isMultiRootWorkspace = vscode.workspace.workspaceFile !== undefined;
+        const hasLocalValue = isMultiRootWorkspace
+            ? (colorTheme === null || colorTheme === void 0 ? void 0 : colorTheme.workspaceFolderValue) !== undefined
+            : (colorTheme === null || colorTheme === void 0 ? void 0 : colorTheme.workspaceValue) !== undefined;
+        if (hasLocalValue) {
             return;
         }
         const globalTheme = (_a = colorTheme === null || colorTheme === void 0 ? void 0 : colorTheme.globalValue) !== null && _a !== void 0 ? _a : colorTheme === null || colorTheme === void 0 ? void 0 : colorTheme.defaultValue;
@@ -53,7 +57,9 @@ function activate(context) {
             return;
         }
         try {
-            await workbenchConfiguration.update("colorTheme", globalTheme, vscode.ConfigurationTarget.WorkspaceFolder);
+            await workbenchConfiguration.update("colorTheme", globalTheme, isMultiRootWorkspace
+                ? vscode.ConfigurationTarget.WorkspaceFolder
+                : vscode.ConfigurationTarget.Workspace);
         }
         catch (error) {
             console.warn(`Colored Theme: impossible d'initialiser ${folder.uri.fsPath}`, error);

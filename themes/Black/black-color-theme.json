@@ -109,6 +109,7 @@
 		"sideBar.foreground": "#f0f0f0",
 		"sideBarSectionHeader.background": "#262626",
 		"sideBar.border": "#575757",
+		"tree.indentGuidesStroke": "#8c8c8c",
 		"sideBarTitle.foreground": "#ffffff",
 		// statusBar
 		"statusBar.background": "#323130",
@@ -159,9 +160,10 @@
 		// text
 		"textBlockQuote.background": "#363636",
 		"textBlockQuote.border": "#3e6db5",
-		"textLink.activeForeground": "#79cdfe",
-		"textLink.foreground": "#23a6e8",
-		"textPreformat.foreground": "#70ad47",
+		"textLink.activeForeground": "#b8e6ff",
+		"textLink.foreground": "#8ad4ff",
+		"textPreformat.foreground": "#67c2ff",
+		"textCodeBlock.background": "#23a6e830",
 		// pickerGroup
 		"pickerGroup.border": "#484644",
 		"pickerGroup.foreground": "#323130",

@@ -64,104 +64,118 @@
     "input.background": "#ffffff",
     "foreground": "#4e5b61",
     "settings.headerForeground": "#4e5b61",
-    "tree.indentGuidesStroke": "#dae3e3",
+    "tree.indentGuidesStroke": "#6f8888",
     "tab.unfocusedActiveForeground": "#4e5b61",
     "tab.inactiveBackground": "#ecf1f1",
-    "textLink.foreground": "#008184",
+    "textLink.foreground": "#004346",
+    "textPreformat.foreground": "#005c5f",
+    "textCodeBlock.background": "#0081841f",
     "errorForeground": "#df7365"
   },
   "tokenColors": [
     {
       "name": "",
       "settings": {
-        "foreground": "#434f54"
+        "foreground": "#000000"
       }
     },
     {
-      "name": "Comments",
-      "scope": "comment",
+      "name": "Comments (line //)",
+      "scope": ["comment.line", "punctuation.definition.comment.line"],
       "settings": {
-        "foreground": "#95a5a6cc"
+        "foreground": "#434F54"
       }
     },
     {
-      "name": "Keywords Attributes",
+      "name": "Comments (block /* */)",
+      "scope": ["comment.block", "punctuation.definition.comment.block", "comment"],
+      "settings": {
+        "foreground": "#95A5A6"
+      }
+    },
+    {
+      "name": "Data types (KEYWORD1)",
       "scope": [
-        "storage",
-        "support",
-        "string.quoted.single.c"
+        "storage.type",
+        "storage.modifier"
       ],
       "settings": {
-        "foreground": "#00979D"
+        "fontStyle": "bold",
+        "foreground": "#D35400"
       }
     },
     {
-      "name": "literal",
+      "name": "Functions and built-in classes (KEYWORD2)",
       "scope": [
-        "meta.function.c",
+        "support.function",
+        "support.class",
         "entity.name.function",
         "meta.function-call.c",
-        "variable.other"
+        "meta.function.c"
       ],
       "settings": {
         "foreground": "#D35400"
       }
     },
     {
-      "name": "punctuation",
+      "name": "Control keywords and preprocessor directives (KEYWORD3)",
       "scope": [
+        "keyword.control",
+        "keyword.control.directive",
+        "meta.preprocessor.c",
+        "entity.name.function.preprocessor.c"
+      ],
+      "settings": {
+        "foreground": "#5E6D03"
+      }
+    },
+    {
+      "name": "Constants, booleans, numbers, char literals (LITERAL1/2)",
+      "scope": [
+        "constant.language",
+        "constant.numeric",
+        "constant.numeric.preprocessor.c",
+        "string.quoted.single.c"
+      ],
+      "settings": {
+        "foreground": "#00979C"
+      }
+    },
+    {
+      "name": "String literals",
+      "scope": [
+        "string.quoted.double",
+        "string.quoted.other.lt-gt"
+      ],
+      "settings": {
+        "foreground": "#e9ad09"
+      }
+    },
+    {
+      "name": "Operators and punctuation",
+      "scope": [
+        "keyword.operator",
         "punctuation.section",
-        "meta.function-call.c",
-        "meta.block.c",
-        "meta.function.c",
+        "punctuation.separator",
+        "punctuation.terminator"
+      ],
+      "settings": {
+        "foreground": "#35a2fa"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": [
         "variable",
+        "variable.other",
         "variable.name"
       ],
       "settings": {
-        "foreground": "#434f54"
-      }
-    },
-    {
-      "name": "function preprocessor",
-      "scope": [
-        "entity.name.function.preprocessor.c",
-        "meta.preprocessor.macro.c"
-      ],
-      "settings": {
-        "foreground": "#9e846d"
-      }
-    },
-    {
-      "name": "constants",
-      "scope": [
-        "string.quoted.double",
-        "string.quoted.other.lt-gt",
-        "constant"
-      ],
-      "settings": {
-        "foreground": "#005C5F"
-      }
-    },
-    {
-      "name": "meta keywords",
-      "scope": [
-        "keyword.control",
-        "meta.preprocessor.c"
-      ],
-      "settings": {
-        "foreground": "#728E00"
-      }
-    },
-    {
-      "name": "numeric preprocessor",
-      "scope": [
-        "meta.preprocessor.macro.c",
-        "constant.numeric.preprocessor.c",
-        "meta.preprocessor.c"
-      ],
-      "settings": {
-        "foreground": "#434f54"
+        "foreground": "#6b08ad"
       }
     }
-  ]
+  ],
+  "semanticTokenColors": {
+    "macro": "#00979C"
+  }
 }

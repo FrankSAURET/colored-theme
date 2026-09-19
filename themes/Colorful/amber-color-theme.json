@@ -106,6 +106,7 @@
         "sideBar.foreground": "#444444",
         "sideBarSectionHeader.background": "#e6e6e6",
         "sideBar.border": "#bfbfbf",
+        "tree.indentGuidesStroke": "#888888",
         "sideBarTitle.foreground": "#ffbb00",
         // search
         "search.resultsInfoForeground": "#444444",
@@ -184,9 +185,10 @@
         // text
         "textBlockQuote.background": "#f3f3f3",
         "textBlockQuote.border": "#f0623e",
-        "textLink.activeForeground": "#a92b1a",
-        "textLink.foreground": "#c2b500",
-        "textPreformat.foreground": "#077568",
+        "textLink.activeForeground": "#7a1e12",
+        "textLink.foreground": "#6b6300",
+        "textPreformat.foreground": "#8a7a00",
+        "textCodeBlock.background": "#c2b5001f",
         // notification
         "notificationCenterHeader.background": "#ffffff",
         "notificationCenterHeader.foreground": "#000000",

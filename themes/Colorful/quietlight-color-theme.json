@@ -559,7 +559,11 @@
         "progressBar.background": "#705697",
         "walkThrough.embeddedEditorBackground": "#00000014",
         "editorIndentGuide.background": "#aaaaaa60",
-        "editorIndentGuide.activeBackground": "#777777b0"
+        "editorIndentGuide.activeBackground": "#777777b0",
+        "tree.indentGuidesStroke": "#7a7a7a",
+        "textLink.foreground": "#3d2e53",
+        "textPreformat.foreground": "#705697",
+        "textCodeBlock.background": "#7056971f"
     },
     "semanticHighlighting": true
 }

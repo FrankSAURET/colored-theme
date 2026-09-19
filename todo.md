@@ -1,6 +1,17 @@
 # À faire
 
-1. ⬜ Publier `2026.8.1` sur le Marketplace.
+1. ⬜ Publier `2026.9.1` sur le Marketplace.
+
+---
+
+# v2026.9.1 (en cours)
+
+1. ✅ Coloration syntaxique Arduino light/dark alignée sur l'IDE officiel (theme.txt).
+2. ✅ Macros `HIGH`/`OUTPUT`/etc. forcées en teal via `semanticTokenColors`.
+3. ✅ Trait vertical de l'explorateur : contraste renforcé une nouvelle fois (14 thèmes).
+4. ✅ Couleur des liens très fortement contrastée (14 thèmes).
+5. ✅ Correction `textPreformat.foreground` codé en dur en vert → aligné sur l'accent de chaque thème.
+6. ✅ Bump de version `2026.9.1`.
 
 ---
 

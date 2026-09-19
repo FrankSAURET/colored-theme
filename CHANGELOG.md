@@ -1,4 +1,24 @@
 # Change Log
+
+## 2026.9.1 (prochaine publication)
+
+### Modification
+- Coloration syntaxique des thèmes Arduino light/dark alignée sur les couleurs officielles de l'IDE Arduino (types, fonctions, mots-clés de contrôle, constantes, chaînes).
+- Constantes macro (`HIGH`, `LOW`, `INPUT`, `OUTPUT`...) forcées en teal via `semanticTokenColors` au lieu d'hériter la couleur des fonctions.
+- Renforcement supplémentaire du contraste du trait vertical de l'explorateur sur les 14 thèmes.
+- Couleur des liens (`textLink.foreground`) très fortement contrastée sur les 14 thèmes.
+
+### Correction
+- Couleur des extraits de code dans le panneau de discussion (`textPreformat.foreground`) : elle était codée en dur en vert sur tous les thèmes colorés, désormais alignée sur l'accent de chaque thème.
+
+## 2026.9.0 (19 septembre 2026)
+- Changement de couleurs pour les thèmes arduino
+- Augmentation du contraste dans certain cas pour les colored thèmes.
+
+## 2026.8.2 (2026.8.10)
+- It's ok now !
+- nothing more.
+- 
 ## 2026.8.1 (2026.8.10)
 - Modernize all 14 themes with colors for Command Center, Sticky Scroll, indentation guides, Inlay Hints, Testing, Chat, and bracket highlighting.
 - Remove the deprecated `welcomePage.buttonBackground` and `welcomePage.buttonHoverBackground` color keys.
