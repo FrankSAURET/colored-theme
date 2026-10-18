@@ -4,6 +4,7 @@
     "description": "Mainly changes the color of the top and left bars to identify multiple instances at a glance. Add Arduino theme.",
     "icon": "logo.png",
     "publisher": "electropol-fr",
+    "private": true,
     "version": "2026.9.1",
     "main": "./dist/extension.js",
     "activationEvents": [
@@ -106,7 +107,8 @@
     "scripts": {
         "compile": "tsc -p ./",
         "validate:themes": "node ./scripts/validate-themes.js",
-        "vscode:prepublish": "npm run compile"
+        "vscode:prepublish": "npm run compile",
+        "publier": "node scripts/publier.mjs"
     },
     "devDependencies": {
         "@types/node": "^22.0.0",

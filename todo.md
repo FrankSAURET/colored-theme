@@ -10,6 +10,7 @@
 2. ✅ Macros `HIGH`/`OUTPUT`/etc. forcées en teal via `semanticTokenColors`.
 3. ✅ Trait vertical de l'explorateur : contraste renforcé une nouvelle fois (14 thèmes).
 4. ✅ Couleur des liens très fortement contrastée (14 thèmes).
+5. ✅ `npm run publier` : [publier.mjs](scripts/publier.mjs) construit un `.vsix` puis l'envoie au Marketplace et à Open VSX. Garde-fou CHANGELOG, `OVSX_PAT` exigé, `--dry-run`. `"private": true` ajouté.
 5. ✅ Correction `textPreformat.foreground` codé en dur en vert → aligné sur l'accent de chaque thème.
 6. ✅ Bump de version `2026.9.1`.
 
