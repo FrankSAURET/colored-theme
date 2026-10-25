@@ -2,6 +2,8 @@
 
 Begin with a fork from ([huacat.office-theme](https://github.com/huacat1017/huacat.office-theme))
 
+The Ice theme is based on "Noctis Hibernus" from [Noctis](https://github.com/liviuschera/noctis) by Liviu Schera (MIT License, Copyright (c) 2018 Liviu Schera).
+
 ## Screenshots
 
 ### Blue Theme

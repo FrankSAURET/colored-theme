@@ -1,10 +1,13 @@
 # Change Log
 
-## 2026.9.1 (prochaine publication)
+## 2026.10.0 (prochaine publication)
+
+### Nouveauté
+- Nouveau thème clair « Colored Theme (Ice) », basé sur « Noctis Hibernus » de Liviu Schera (licence MIT).
+
+## 2026.9.1 (19 septembre 2026)
 
 ### Modification
-- Coloration syntaxique des thèmes Arduino light/dark alignée sur les couleurs officielles de l'IDE Arduino (types, fonctions, mots-clés de contrôle, constantes, chaînes).
-- Constantes macro (`HIGH`, `LOW`, `INPUT`, `OUTPUT`...) forcées en teal via `semanticTokenColors` au lieu d'hériter la couleur des fonctions.
 - Renforcement supplémentaire du contraste du trait vertical de l'explorateur sur les 14 thèmes.
 - Couleur des liens (`textLink.foreground`) très fortement contrastée sur les 14 thèmes.
 

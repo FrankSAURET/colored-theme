@@ -1,6 +1,15 @@
 # À faire
 
 1. ⬜ Publier `2026.9.1` sur le Marketplace.
+2. ⬜ Adapter le thème Ice (barres colorées comme les autres thèmes Colorful) et ajouter les 17 clés exigées par `npm run validate:themes` (Command Center, Sticky Scroll, guides, Inlay Hints, Testing, Chat, brackets).
+
+---
+
+# v2026.9.1.1 (en cours)
+
+1. ✅ Ajout du thème `ice-color-theme` (copie de Noctis Hibernus, MIT, crédit Liviu Schera dans le JSON et le README).
+2. ✅ `buildNumber` `2026.9.1.1` ajouté au manifeste.
+3. ⏳ Capture d'écran du thème Ice pour le README.
 
 ---
 
