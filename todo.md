@@ -5,7 +5,16 @@
 
 ---
 
-# v2026.9.1.2 (en cours)
+# v2026.9.1.3 (en cours)
+
+1. ✅ Ice : clés du panneau et du terminal regroupées sous des commentaires.
+2. ✅ Ice : terminal sur fond bleu `#164aaa`, texte blanc, curseur jaune, sélection en voile blanc, 16 couleurs ANSI claires (contraste ≥ 4,5:1 sauf `ansiBlack`).
+3. ℹ️ Command Center en Modern UI : fond forcé à transparent par VS Code (`.modern-ui .agent-status-pill … !important`), aucune clé de remplacement. Seuls `commandCenter.border` et les couleurs de texte agissent. Contournement : `chat.agentsControl.enabled: false` (non testé).
+4. ✅ `buildNumber` `2026.9.1.3`, `.vsix` construit sur demande.
+
+---
+
+# v2026.9.1.2
 
 1. ✅ 30 clés Modern UI ajoutées aux 14 thèmes, calculées depuis les couleurs classiques : coque = `titleBar.activeBackground`, cartes = fond de l'éditeur, barre d'activité = `activityBar.*`, onglets = `tab.*`, poignée et `sash.hoverBorder` = `titleBar.activeForeground` (visible sur la coque). Script ponctuel, non conservé dans le projet.
 2. ✅ Ice : `sash.hoverBorder` ajouté, barre de menu (`titleBar.activeBackground`) alignée sur la coque.
