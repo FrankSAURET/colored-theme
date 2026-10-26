@@ -1,8 +1,7 @@
 # À faire
 
 1. ⬜ Publier `2026.9.1` sur le Marketplace.
-2. ⬜ Ice : ajouter les 15 clés encore exigées par `npm run validate:themes` (Command Center, Sticky Scroll, Inlay Hints, Testing, Chat, brackets).
-3. ⬜ Vérifier à l'écran les 14 thèmes sous modernUI (coque, poignée, onglets), surtout Quietlight, Black et Arduino.
+2. ⬜ Vérifier à l'écran les 14 thèmes sous modernUI (coque, poignée, onglets), surtout Quietlight, Black et Arduino.
 
 ---
 
@@ -11,6 +10,7 @@
 1. ✅ 30 clés Modern UI ajoutées aux 14 thèmes, calculées depuis les couleurs classiques : coque = `titleBar.activeBackground`, cartes = fond de l'éditeur, barre d'activité = `activityBar.*`, onglets = `tab.*`, poignée et `sash.hoverBorder` = `titleBar.activeForeground` (visible sur la coque). Script ponctuel, non conservé dans le projet.
 2. ✅ Ice : `sash.hoverBorder` ajouté, barre de menu (`titleBar.activeBackground`) alignée sur la coque.
 3. ✅ `buildNumber` `2026.9.1.2`.
+5. ✅ Ice : 15 clés manquantes ajoutées (Command Center, Sticky Scroll, Inlay Hints, Testing, Chat, brackets) — `npm run validate:themes` passe sur les 15 thèmes.
 4. ℹ️ Correction de l'analyse v1.4.1 : modernUI SE corrige depuis le thème, via les clés `modernUI.*`, `modernActivityBar*`, `surface.*` (doc Theme Color, section « Modern UI colors »).
 
 ---
