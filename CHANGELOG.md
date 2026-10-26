@@ -5,6 +5,9 @@
 ### Nouveauté
 - Nouveau thème clair « Colored Theme (Ice) », basé sur « Noctis Hibernus » de Liviu Schera (licence MIT).
 
+### Correction
+- Nouvelle interface de VS Code (Modern UI) : tous les thèmes retrouvent leurs couleurs. La barre de titre, l'espace entre les panneaux, la barre d'activité et les onglets ne sont plus gris.
+
 ## 2026.9.1 (19 septembre 2026)
 
 ### Modification
