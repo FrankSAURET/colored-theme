@@ -1,11 +1,19 @@
 # À faire
 
-1. ⬜ Publier `2026.9.1` sur le Marketplace.
-2. ⬜ Vérifier à l'écran les 14 thèmes sous modernUI (coque, poignée, onglets), surtout Quietlight, Black et Arduino.
+1. ⬜ Publier `2026.10.0` : `npm run publier`.
+2. ⬜ Vérifier à l'écran les 15 thèmes sous modernUI (coque, poignée, onglets), surtout Quietlight, Black et Arduino.
+3. ⏳ README : pas de capture du thème Ice (section à ajouter avec une image).
 
 ---
 
-# v2026.9.1.3 (en cours)
+# v2026.10.0.4
+
+1. ✅ Préparation de la publication : version publique `2026.10.0`, CHANGELOG daté du 28 octobre 2026.
+2. ✅ `buildNumber` `2026.10.0.4`.
+
+---
+
+# v2026.9.1.3
 
 1. ✅ Ice : clés du panneau et du terminal regroupées sous des commentaires.
 2. ✅ Ice : terminal sur fond bleu `#164aaa`, texte blanc, curseur jaune, sélection en voile blanc, 16 couleurs ANSI claires (contraste ≥ 4,5:1 sauf `ansiBlack`).

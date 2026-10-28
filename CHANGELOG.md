@@ -1,6 +1,6 @@
 # Change Log
 
-## 2026.10.0 (prochaine publication)
+## 2026.10.0 (28 octobre 2026)
 
 ### Nouveauté
 - Nouveau thème clair « Colored Theme (Ice) », basé sur « Noctis Hibernus » de Liviu Schera (licence MIT).
