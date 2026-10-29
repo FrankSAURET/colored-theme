@@ -2,6 +2,9 @@
 
 ## 2026.10.1 (prochaine publication)
 
+### Nouveauté
+- Nouveau thème clair « Colored Theme (Pink) » : barres rose tendre, textes et icônes rose foncé.
+
 ### Modification
 - Thèmes clairs : quand la fenêtre n'a pas le focus, la barre de titre, la coque et la barre d'activité prennent une version très éclaircie de la couleur du thème. Une fenêtre active se repère d'un coup d'œil parmi plusieurs. Le titre y prend une version éclaircie de sa couleur active.
 

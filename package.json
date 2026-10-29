@@ -6,7 +6,7 @@
     "publisher": "electropol-fr",
     "private": true,
     "version": "2026.10.0",
-    "buildNumber": "2026.10.0.11",
+    "buildNumber": "2026.10.0.12",
     "main": "./dist/extension.js",
     "activationEvents": [
         "onStartupFinished"
@@ -77,6 +77,11 @@
                 "label": "Colored Theme (Fushia)",
                 "uiTheme": "vs",
                 "path": "./themes/Colorful/fushia-color-theme.json"
+            },
+            {
+                "label": "Colored Theme (Pink)",
+                "uiTheme": "vs",
+                "path": "./themes/Colorful/pink-color-theme.json"
             },
             {
                 "label": "Colored Theme (Ice)",

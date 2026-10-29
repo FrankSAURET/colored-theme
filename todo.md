@@ -2,7 +2,15 @@
 
 1. ⬜ Publier `2026.10.0` : `npm run publier`.
 2. ⬜ Vérifier à l'écran les 15 thèmes sous modernUI (coque, poignée, onglets), surtout Quietlight, Black et Arduino.
-3. ⏳ README : pas de capture du thème Ice (section à ajouter avec une image).
+3. ⏳ README : pas de capture des thèmes Ice et Pink (section à ajouter avec une image).
+
+---
+
+# v2026.10.0.12
+
+1. ✅ Nouveau thème `pink-color-theme.json` (« Colored Theme (Pink) »), création originale : Light Pink (`mgwg.light-pink-theme`) n'a aucune licence, donc rien n'en est repris. Structure copiée de Fushia, palette rose tendre : fond des barres `#f48fb1`, accent `#c2185b`, texte sur barres `#6d0b3f` (contraste 5,3), bouton blanc sur accent (5,9).
+2. ✅ Fonds inactifs et textes inactifs calculés avec les mêmes règles que les autres thèmes clairs (`#fbd8e4`, titre inactif `#f171b5`).
+3. ✅ `buildNumber` `2026.10.0.12`.
 
 ---
 
