@@ -6,6 +6,13 @@
 
 ---
 
+# v2026.10.0.11
+
+1. ✅ `activityBar.inactiveForeground` remis partout à sa valeur d'origine (celle de v2026.10.0.6), à la demande de Frank. `titleBar.inactiveForeground` garde la version éclaircie.
+2. ✅ `buildNumber` `2026.10.0.11`.
+
+---
+
 # v2026.10.0.10
 
 1. ✅ Correction de v2026.10.0.9 (Frank voulait l'inverse) : `titleBar.inactiveForeground` et `activityBar.inactiveForeground` = teinte et saturation de l'équivalent actif, luminosité HSL rapprochée du blanc de 60 % (`l + (1 − l) × 0,6`). Effet pâle : contraste 1,1 à 2,5 sur le fond inactif.
