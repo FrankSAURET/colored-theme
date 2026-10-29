@@ -3,7 +3,7 @@
     "type": "light",
     "colors": {
         // Modern UI (workbench.experimental.modernUI) — clés expérimentales
-        "modernUI.shellBackground": "#ffe225",
+        "modernUI.shellBackground": "#ffee00",
         "modernUI.inactiveShellBackground": "#fff5b3",
         "surface.background": "#ffffff",
         "surface.foreground": "#000000",
@@ -200,7 +200,7 @@
         // titleBar
         "titleBar.inactiveBackground": "#fff5b3",
         "titleBar.activeForeground": "#0027a7",
-        "titleBar.activeBackground": "#ffe225",
+        "titleBar.activeBackground": "#ffee00",
         // text
         "textBlockQuote.background": "#f3f3f3",
         "textBlockQuote.border": "#f0623e",
