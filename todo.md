@@ -6,6 +6,14 @@
 
 ---
 
+# v2026.10.0.9
+
+1. ✅ 13 thèmes clairs : `titleBar.inactiveForeground` et `activityBar.inactiveForeground` = teinte et saturation de leur équivalent actif (`titleBar.activeForeground`, `activityBar.foreground`), luminosité HSL divisée par 2. Les blancs `#ededed`/`#f3f3f3` deviennent gris `#777777`/`#7a7a7a`.
+2. ℹ️ `activityBar.inactiveForeground` colore aussi les icônes non sélectionnées de la fenêtre active.
+3. ✅ `buildNumber` `2026.10.0.9`.
+
+---
+
 # v2026.10.0.8
 
 1. ✅ Lot v2026.10.0.7 annulé à la demande de Frank : `titleBar.inactiveForeground` et `activityBar.inactiveForeground` reviennent aux valeurs de v2026.10.0.6. Modifications de Frank sur yellow (`#ffee00`) conservées.
