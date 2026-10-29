@@ -6,6 +6,13 @@
 
 ---
 
+# v2026.10.0.10
+
+1. ✅ Correction de v2026.10.0.9 (Frank voulait l'inverse) : `titleBar.inactiveForeground` et `activityBar.inactiveForeground` = teinte et saturation de l'équivalent actif, luminosité HSL rapprochée du blanc de 60 % (`l + (1 − l) × 0,6`). Effet pâle : contraste 1,1 à 2,5 sur le fond inactif.
+2. ✅ `buildNumber` `2026.10.0.10`.
+
+---
+
 # v2026.10.0.9
 
 1. ✅ 13 thèmes clairs : `titleBar.inactiveForeground` et `activityBar.inactiveForeground` = teinte et saturation de leur équivalent actif (`titleBar.activeForeground`, `activityBar.foreground`), luminosité HSL divisée par 2. Les blancs `#ededed`/`#f3f3f3` deviennent gris `#777777`/`#7a7a7a`.

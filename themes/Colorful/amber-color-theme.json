@@ -35,7 +35,7 @@
         "modernEditorTab.selectedActionBackground": "#00000033",
         "activityBar.border": "#cea800",
         "titleBar.border": "#dbc220",
-        "titleBar.inactiveForeground": "#530151",
+        "titleBar.inactiveForeground": "#fe77fc",
         // default settings
         "focusBorder": "#f0c300",
         "foreground": "#000000",
@@ -44,7 +44,7 @@
         "activityBar.background": "#f0c300",
         "activityBar.activeBackground": "#c6b963",
         "activityBar.foreground": "#a601a3",
-        "activityBar.inactiveForeground": "#530151",
+        "activityBar.inactiveForeground": "#fe77fc",
         "activityBar.activeBorder": "#ffffff00",
         "activityBar.dropBorder": "#ffffff",
         "activityBarBadge.background": "#a601a3",
