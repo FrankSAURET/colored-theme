@@ -6,6 +6,13 @@
 
 ---
 
+# v2026.10.0.8
+
+1. ✅ Lot v2026.10.0.7 annulé à la demande de Frank : `titleBar.inactiveForeground` et `activityBar.inactiveForeground` reviennent aux valeurs de v2026.10.0.6. Modifications de Frank sur yellow (`#ffee00`) conservées.
+2. ✅ `buildNumber` `2026.10.0.8`.
+
+---
+
 # v2026.10.0.7
 
 1. ✅ 13 thèmes clairs : `titleBar.inactiveForeground` estompé (teinte du thème, saturation × 0,6, contraste 2:1 sur le fond inactif). Choix de Frank : pâle plutôt que lisible.

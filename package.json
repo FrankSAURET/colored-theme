@@ -6,7 +6,7 @@
     "publisher": "electropol-fr",
     "private": true,
     "version": "2026.10.0",
-    "buildNumber": "2026.10.0.7",
+    "buildNumber": "2026.10.0.8",
     "main": "./dist/extension.js",
     "activationEvents": [
         "onStartupFinished"
