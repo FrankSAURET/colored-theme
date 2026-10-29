@@ -6,6 +6,13 @@
 
 ---
 
+# v2026.10.0.5
+
+1. ✅ `npm run package` (`scripts/paquet.mjs`) : construit `coloredtheme-<buildNumber>.vsix` et l'installe dans VS Code (`--no-install` pour construire seulement).
+2. ✅ `buildNumber` `2026.10.0.5`.
+
+---
+
 # v2026.10.0.4
 
 1. ✅ Préparation de la publication : version publique `2026.10.0`, CHANGELOG daté du 28 octobre 2026.

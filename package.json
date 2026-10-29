@@ -6,7 +6,7 @@
     "publisher": "electropol-fr",
     "private": true,
     "version": "2026.10.0",
-    "buildNumber": "2026.10.0.4",
+    "buildNumber": "2026.10.0.5",
     "main": "./dist/extension.js",
     "activationEvents": [
         "onStartupFinished"
@@ -114,7 +114,8 @@
         "compile": "tsc -p ./",
         "validate:themes": "node ./scripts/validate-themes.js",
         "vscode:prepublish": "npm run compile",
-        "publier": "node scripts/publier.mjs"
+        "publier": "node scripts/publier.mjs",
+        "package": "node scripts/paquet.mjs"
     },
     "devDependencies": {
         "@types/node": "^22.0.0",
