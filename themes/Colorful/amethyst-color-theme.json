@@ -4,7 +4,7 @@
 	"colors": {
 		// Modern UI (workbench.experimental.modernUI) — clés expérimentales
 		"modernUI.shellBackground": "#6e308f",
-		"modernUI.inactiveShellBackground": "#6e308f",
+		"modernUI.inactiveShellBackground": "#ccb7d8",
 		"surface.background": "#ffffff",
 		"surface.foreground": "#000000",
 		"surface.border": "#bfbfbf",
@@ -13,7 +13,7 @@
 		"modernSash.gripForeground": "#f3f3f3",
 		"sash.hoverBorder": "#f3f3f3",
 		"modernActivityBar.background": "#6e308f",
-		"modernActivityBar.inactiveBackground": "#6e308f",
+		"modernActivityBar.inactiveBackground": "#ccb7d8",
 		"modernActivityBar.border": "#824d9f",
 		"modernActivityBarItem.activeBackground": "#52254f",
 		"modernActivityBarItem.activeForeground": "#ededed",
@@ -35,7 +35,7 @@
 		"modernEditorTab.selectedActionBackground": "#00000033",
 		"activityBar.border": "#824d9f",
 		"titleBar.border": "#824d9f",
-		"titleBar.inactiveForeground": "#bea5cb",
+		"titleBar.inactiveForeground": "#5e406e",
 		// default settings
 		"focusBorder": "#6e308f",
 		"foreground": "#000000",
@@ -191,14 +191,14 @@
 		"commandCenter.activeBackground": "#ffffff",
 		"commandCenter.activeForeground": "#262626",
 		"commandCenter.activeBorder": "#d000ff",
-		"commandCenter.inactiveForeground": "#d000ff",
+		"commandCenter.inactiveForeground": "#81009e",
 		"commandCenter.inactiveBorder": "#d000ff",
 		"editorStickyScroll.background": "#f3f3f3", "editorStickyScrollHover.background": "#c6c6c6", "editorStickyScroll.border": "#d2d2d2", "editorStickyScroll.shadow": "#00000020",
 		"editorIndentGuide.background1": "#d2d2d2", "editorIndentGuide.activeBackground1": "#d000ff", "editorInlayHint.background": "#f3f3f3", "editorInlayHint.foreground": "#444444",
 		"testing.iconPassed": "#077568", "testing.iconFailed": "#ed7d31", "testing.iconSkipped": "#a5a5a5", "chat.requestBackground": "#f3f3f3", "chat.requestBorder": "#d2d2d2",
 		"editorBracketHighlight.foreground1": "#d000ff", "editorBracketPairGuide.background1": "#d2d2d2", "editorBracketPairGuide.activeBackground1": "#d000ff",
 		// titleBar
-		"titleBar.inactiveBackground": "#6e308f",
+		"titleBar.inactiveBackground": "#ccb7d8",
 		"titleBar.activeForeground": "#f3f3f3",
 		"titleBar.activeBackground": "#6e308f",
 		// text

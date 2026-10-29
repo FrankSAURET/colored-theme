@@ -4,7 +4,7 @@
     "colors": {
         // Modern UI (workbench.experimental.modernUI) — clés expérimentales
         "modernUI.shellBackground": "#ffe225",
-        "modernUI.inactiveShellBackground": "#f0c300",
+        "modernUI.inactiveShellBackground": "#faeaa6",
         "surface.background": "#ffffff",
         "surface.foreground": "#000000",
         "surface.border": "#bfbfbf",
@@ -13,7 +13,7 @@
         "modernSash.gripForeground": "#a601a3",
         "sash.hoverBorder": "#a601a3",
         "modernActivityBar.background": "#f0c300",
-        "modernActivityBar.inactiveBackground": "#f0c300",
+        "modernActivityBar.inactiveBackground": "#faeaa6",
         "modernActivityBar.border": "#cea800",
         "modernActivityBarItem.activeBackground": "#c6b963",
         "modernActivityBarItem.activeForeground": "#a601a3",
@@ -35,7 +35,7 @@
         "modernEditorTab.selectedActionBackground": "#00000033",
         "activityBar.border": "#cea800",
         "titleBar.border": "#dbc220",
-        "titleBar.inactiveForeground": "#bc3b72",
+        "titleBar.inactiveForeground": "#b4396d",
         // default settings
         "focusBorder": "#f0c300",
         "foreground": "#000000",
@@ -109,7 +109,7 @@
         "list.highlightForeground": "#f0623ed0",
         "list.hoverBackground": "#c6c6c6",
         "list.inactiveSelectionBackground": "#aeaeae",
-        "list.inactiveSelectionForeground": "#f0c300",
+        "list.inactiveSelectionForeground": "#fae896",
         // menu
         "menu.background": "#f3f3f3",
         "menu.foreground": "#262626",
@@ -186,12 +186,12 @@
         "terminalCursor.foreground": "#f0623e",
         // command center
         "commandCenter.background": "#ffe065",
-        "commandCenter.foreground": "#d6ab00",
+        "commandCenter.foreground": "#755e00",
         "commandCenter.border": "#ffcb00",
         "commandCenter.activeBackground": "#ffffff",
         "commandCenter.activeForeground": "#262626",
         "commandCenter.activeBorder": "#ffcb00",
-        "commandCenter.inactiveForeground": "#ffcb00",
+        "commandCenter.inactiveForeground": "#7f6600",
         "commandCenter.inactiveBorder": "#ffcb00",
         "editorStickyScroll.background": "#f3f3f3",
         "editorStickyScrollHover.background": "#c6c6c6",
@@ -210,9 +210,9 @@
         "editorBracketPairGuide.background1": "#d2d2d2",
         "editorBracketPairGuide.activeBackground1": "#ffcb00",
         // titleBar
-        "titleBar.inactiveBackground": "#f0c300",
+        "titleBar.inactiveBackground": "#faeaa6",
         "titleBar.activeForeground": "#a601a3",
-        "titleBar.activeBackground": "#ffe225",
+        "titleBar.activeBackground": "#f0c300",
         // text
         "textBlockQuote.background": "#f3f3f3",
         "textBlockQuote.border": "#f0623e",

@@ -6,6 +6,15 @@
 
 ---
 
+# v2026.10.0.6
+
+1. ✅ 13 thèmes clairs : `titleBar.inactiveBackground`, `modernUI.inactiveShellBackground`, `modernActivityBar.inactiveBackground` = `titleBar.activeBackground` mélangé à 65 % de blanc (même teinte, pastel). Script ponctuel, non conservé.
+2. ✅ `titleBar.inactiveForeground` et `commandCenter.inactiveForeground` foncés (même teinte) jusqu'à un contraste ≥ 4,5:1 sur le nouveau fond.
+3. ℹ️ Thèmes sombres (Black, Arduino dark) non modifiés : un fond inactif clair y casserait le thème.
+4. ✅ `buildNumber` `2026.10.0.6`.
+
+---
+
 # v2026.10.0.5
 
 1. ✅ `npm run package` (`scripts/paquet.mjs`) : construit `coloredtheme-<buildNumber>.vsix` et l'installe dans VS Code (`--no-install` pour construire seulement).

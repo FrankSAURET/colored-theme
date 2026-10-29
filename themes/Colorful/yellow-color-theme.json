@@ -4,7 +4,7 @@
     "colors": {
         // Modern UI (workbench.experimental.modernUI) — clés expérimentales
         "modernUI.shellBackground": "#ffe225",
-        "modernUI.inactiveShellBackground": "#ffee00",
+        "modernUI.inactiveShellBackground": "#fff5b3",
         "surface.background": "#ffffff",
         "surface.foreground": "#000000",
         "surface.border": "#bfbfbf",
@@ -13,7 +13,7 @@
         "modernSash.gripForeground": "#0027a7",
         "sash.hoverBorder": "#0027a7",
         "modernActivityBar.background": "#ffee00",
-        "modernActivityBar.inactiveBackground": "#ffee00",
+        "modernActivityBar.inactiveBackground": "#fff5b3",
         "modernActivityBar.border": "#dbcd00",
         "modernActivityBarItem.activeBackground": "#c6b963",
         "modernActivityBarItem.activeForeground": "#0027a7",
@@ -35,7 +35,7 @@
         "modernEditorTab.selectedActionBackground": "#00000033",
         "activityBar.border": "#dbcd00",
         "titleBar.border": "#dbc220",
-        "titleBar.inactiveForeground": "#667764",
+        "titleBar.inactiveForeground": "#61715f",
         // default settings
         "focusBorder": "#ffee00",
         "foreground": "#000000",
@@ -191,14 +191,14 @@
         "commandCenter.activeBackground": "#ffffff",
         "commandCenter.activeForeground": "#262626",
         "commandCenter.activeBorder": "#ffcb00",
-        "commandCenter.inactiveForeground": "#ffcb00",
+        "commandCenter.inactiveForeground": "#856a00",
         "commandCenter.inactiveBorder": "#ffcb00",
         "editorStickyScroll.background": "#f3f3f3", "editorStickyScrollHover.background": "#c6c6c6", "editorStickyScroll.border": "#d2d2d2", "editorStickyScroll.shadow": "#00000020",
         "editorIndentGuide.background1": "#d2d2d2", "editorIndentGuide.activeBackground1": "#ffcb00", "editorInlayHint.background": "#f3f3f3", "editorInlayHint.foreground": "#444444",
         "testing.iconPassed": "#077568", "testing.iconFailed": "#ed7d31", "testing.iconSkipped": "#a5a5a5", "chat.requestBackground": "#f3f3f3", "chat.requestBorder": "#d2d2d2",
         "editorBracketHighlight.foreground1": "#ffcb00", "editorBracketPairGuide.background1": "#d2d2d2", "editorBracketPairGuide.activeBackground1": "#ffcb00",
         // titleBar
-        "titleBar.inactiveBackground": "#ffee00",
+        "titleBar.inactiveBackground": "#fff5b3",
         "titleBar.activeForeground": "#0027a7",
         "titleBar.activeBackground": "#ffe225",
         // text

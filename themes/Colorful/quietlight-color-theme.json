@@ -484,7 +484,7 @@
     "colors": {
         // Modern UI (workbench.experimental.modernUI) — clés expérimentales
         "modernUI.shellBackground": "#c4b7d7",
-        "modernUI.inactiveShellBackground": "#c4b7d7",
+        "modernUI.inactiveShellBackground": "#eae6f1",
         "surface.background": "#f5f5f5",
         "surface.foreground": "#333333",
         "surface.border": "#ccccd3",
@@ -493,7 +493,7 @@
         "modernSash.gripForeground": "#262626",
         "sash.hoverBorder": "#262626",
         "modernActivityBar.background": "#ededf5",
-        "modernActivityBar.inactiveBackground": "#ededf5",
+        "modernActivityBar.inactiveBackground": "#eae6f1",
         "modernActivityBar.border": "#ccccd3",
         "modernActivityBarItem.activeBackground": "#70569733",
         "modernActivityBarItem.activeForeground": "#705697",
@@ -515,7 +515,7 @@
         "modernEditorTab.selectedActionBackground": "#33333333",
         "activityBar.border": "#ccccd3",
         "titleBar.border": "#a99db9",
-        "titleBar.inactiveBackground": "#c4b7d7",
+        "titleBar.inactiveBackground": "#eae6f1",
         "menu.background": "#f3f3f3",
         "menu.foreground": "#262626",
         "menubar.selectionBackground": "#f3f3f3",
