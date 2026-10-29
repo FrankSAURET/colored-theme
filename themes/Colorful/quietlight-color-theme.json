@@ -532,7 +532,7 @@
         "editorIndentGuide.background1": "#aaaaaa60", "editorIndentGuide.activeBackground1": "#705697", "editorInlayHint.background": "#f0f0f7", "editorInlayHint.foreground": "#333333",
         "testing.iconPassed": "#448C27", "testing.iconFailed": "#cd3131", "testing.iconSkipped": "#AAAAAA", "chat.requestBackground": "#f0f0f7", "chat.requestBorder": "#c9d0d9",
         "editorBracketHighlight.foreground1": "#705697", "editorBracketPairGuide.background1": "#aaaaaa60", "editorBracketPairGuide.activeBackground1": "#705697",
-        "activityBar.inactiveForeground": "#a89ac1",
+        "activityBar.inactiveForeground": "#ab9fbb",
         "activityBarBadge.foreground": "#ffffff",
         "titleBar.activeForeground": "#262626",
         "focusBorder": "#A6B39B",

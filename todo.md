@@ -6,6 +6,14 @@
 
 ---
 
+# v2026.10.0.7
+
+1. ✅ 13 thèmes clairs : `titleBar.inactiveForeground` estompé (teinte du thème, saturation × 0,6, contraste 2:1 sur le fond inactif). Choix de Frank : pâle plutôt que lisible.
+2. ✅ `activityBar.inactiveForeground` : même teinte, contraste ≥ 2:1 à la fois sur la barre active et sur la barre inactive pastel. Les icônes non sélectionnées deviennent foncées sur auburn, cognac, fushia, green malachite, peacock et red (au lieu de `#ededed`).
+3. ✅ `buildNumber` `2026.10.0.7`.
+
+---
+
 # v2026.10.0.6
 
 1. ✅ 13 thèmes clairs : `titleBar.inactiveBackground`, `modernUI.inactiveShellBackground`, `modernActivityBar.inactiveBackground` = `titleBar.activeBackground` mélangé à 65 % de blanc (même teinte, pastel). Script ponctuel, non conservé.
