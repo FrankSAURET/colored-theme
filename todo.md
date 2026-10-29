@@ -6,6 +6,15 @@
 
 ---
 
+# v2026.10.0.13
+
+1. ✅ Pink : retouches de Frank enregistrées (barres `#ffa7c4`, barre d'état `#fd7fb6`, fond du terminal `#f2e7ed`).
+2. ✅ Pink : terminal accordé au fond pâle. Texte `#3a0a24`, 16 couleurs ANSI foncées dans leur teinte jusqu'à 4,5:1 minimum (`ansiWhite`/`ansiBrightWhite` en gris lisible), curseur `#c2185b`, sélection `#d81b6033`.
+3. ℹ️ Les variantes « bright » sont presque identiques aux normales : sur fond pâle, la marge entre lisible et clair est étroite.
+4. ✅ `buildNumber` `2026.10.0.13`.
+
+---
+
 # v2026.10.0.12
 
 1. ✅ Nouveau thème `pink-color-theme.json` (« Colored Theme (Pink) »), création originale : Light Pink (`mgwg.light-pink-theme`) n'a aucune licence, donc rien n'en est repris. Structure copiée de Fushia, palette rose tendre : fond des barres `#f48fb1`, accent `#c2185b`, texte sur barres `#6d0b3f` (contraste 5,3), bouton blanc sur accent (5,9).
