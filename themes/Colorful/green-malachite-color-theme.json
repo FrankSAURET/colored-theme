@@ -185,7 +185,7 @@
 		"terminalCursor.background": "#fafafa",
 		"terminalCursor.foreground": "#f0623e",
 		// command center
-		"commandCenter.background": "#a3d2cd",
+		"commandCenter.background": "#e1eeed",
 		"commandCenter.foreground": "#004b50",
 		"commandCenter.border": "#077568",
 		"commandCenter.activeBackground": "#ffffff",

@@ -6,6 +6,16 @@
 
 ---
 
+# v2026.10.0.14
+
+1. ✅ Zone de recherche (Command Center) façon Ice sur les 11 thèmes colorés clairs : `commandCenter.background` = 12 % de la bordure + 88 % de blanc, `commandCenter.foreground` foncé jusqu'à 7:1 minimum (Yellow `#d6ab00` → `#675200`, Amber `#675300`), `inactiveForeground` ≥ 4,5:1 (déjà le cas partout).
+2. ✅ Amber et Yellow : bordures du Command Center `#ffcb00` → `#a68500` (2,1:1 sur la barre au lieu de 1,1).
+3. ✅ Arduino Dark : fond du Command Center `#171e21` (identique à la barre) → `#163235`, teinté sarcelle.
+4. ℹ️ Black, Arduino Light, Quietlight et Ice inchangés : fond déjà distinct de la barre et texte contrasté.
+5. ✅ `buildNumber` `2026.10.0.14`.
+
+---
+
 # v2026.10.0.13
 
 1. ✅ Pink : retouches de Frank enregistrées (barres `#ffa7c4`, barre d'état `#fd7fb6`, fond du terminal `#f2e7ed`).
