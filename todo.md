@@ -6,6 +6,14 @@
 
 ---
 
+# v2026.10.0.15
+
+1. ✅ Ice : traits des tableaux de Claude Code invisibles. Leur CSS lit `inlineChatInput.border` → `input.border` → `widget.border` ; Ice avait `input.border` `#e0eff1` (quasi blanc). Ajout de `inlineChatInput.border` `#8fb5bb`, `input.border` laissé tel quel.
+2. ℹ️ Autres thèmes non concernés : `input.border` `#ababab` ou valeur par défaut `#7f7f7f66`, visibles.
+3. ✅ `buildNumber` `2026.10.0.15`.
+
+---
+
 # v2026.10.0.14
 
 1. ✅ Zone de recherche (Command Center) façon Ice sur les 11 thèmes colorés clairs : `commandCenter.background` = 12 % de la bordure + 88 % de blanc, `commandCenter.foreground` foncé jusqu'à 7:1 minimum (Yellow `#d6ab00` → `#675200`, Amber `#675300`), `inactiveForeground` ≥ 4,5:1 (déjà le cas partout).

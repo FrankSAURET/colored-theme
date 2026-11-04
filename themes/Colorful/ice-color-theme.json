@@ -122,6 +122,8 @@
       "walkThrough.embeddedEditorBackground": "#e7f2f3",
       "input.background": "#f4f6f6",
       "input.border": "#e0eff1",
+      // Bordure de la saisie du chat en ligne ; Claude Code s'en sert aussi pour les traits de ses tableaux
+      "inlineChatInput.border": "#8fb5bb",
       "input.foreground": "#6a7a7c",
       "input.placeholderForeground": "#9fabad",
       "inputOption.activeBorder": "#0099ad",
