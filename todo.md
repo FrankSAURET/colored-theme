@@ -1,8 +1,17 @@
 # À faire
 
-1. ⬜ Publier `2026.10.0` : `npm run publier`.
+1. ⬜ Publier `2026.11.0` : `npm run publier` (OVSX_PAT requis).
 2. ⬜ Vérifier à l'écran les 15 thèmes sous modernUI (coque, poignée, onglets), surtout Quietlight, Black et Arduino.
 3. ⏳ README : pas de capture des thèmes Ice et Pink (section à ajouter avec une image).
+
+---
+
+# v2026.11.0.18
+
+1. ✅ Publication préparée : CHANGELOG `2026.11.0` daté du 14 novembre 2026.
+2. ✅ `version` `2026.11.0`, `buildNumber` `2026.11.0.18`.
+3. ✅ `2026.10.0` confirmée en ligne sur la place de marché (`vsce show`).
+4. ⏳ README anglais : pas de mention des thèmes Ice/Pink ni de la coloration Arduino/Python — traduction sur demande.
 
 ---
 

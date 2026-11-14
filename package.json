@@ -5,8 +5,8 @@
     "icon": "logo.png",
     "publisher": "electropol-fr",
     "private": true,
-    "version": "2026.10.0",
-    "buildNumber": "2026.10.0.17",
+    "version": "2026.11.0",
+    "buildNumber": "2026.11.0.18",
     "main": "./dist/extension.js",
     "activationEvents": [
         "onStartupFinished"

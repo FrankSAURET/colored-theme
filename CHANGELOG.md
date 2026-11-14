@@ -1,6 +1,6 @@
 # Change Log
 
-## 2026.11.0 (prochaine publication)
+## 2026.11.0 (14 novembre 2026)
 
 ### Nouveauté
 - Nouveau thème clair « Colored Theme (Pink) » : barres rose tendre, textes et icônes rose foncé.
