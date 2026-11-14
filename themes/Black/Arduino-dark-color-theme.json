@@ -204,6 +204,176 @@
       "settings": {
         "foreground": "#c48ae8"
       }
+    },
+    // --- Compléments Arduino (C/C++) et Python / MicroPython ---
+    {
+      "name": "Variables et noms (C/C++, Python)",
+      "scope": [
+        "source.cpp",
+        "source.c",
+        "source.python",
+        "source.cpp variable",
+        "source.c variable",
+        "source.python meta.fstring",
+        "source.python meta.function-call.arguments",
+        "source.python meta.indexed-name"
+      ],
+      "settings": {
+        "foreground": "#c48ae8"
+      }
+    },
+    {
+      "name": "Constantes : MAJUSCULES, énumérations, gabarits (C/C++, Python)",
+      "scope": [
+        "source.python constant.other.caps",
+        "source.python constant.other.ellipsis",
+        "source.python constant.character.format.placeholder"
+      ],
+      "settings": {
+        "foreground": "#0ca1a6"
+      }
+    },
+    {
+      "name": "Attributs et membres (C/C++, Python)",
+      "scope": [
+        "source.cpp variable.other.property",
+        "source.cpp variable.other.member",
+        "source.cpp variable.other.object.property",
+        "source.c variable.other.property",
+        "source.c variable.other.member",
+        "source.c variable.other.object.property",
+        "source.python meta.attribute"
+      ],
+      "settings": {
+        "foreground": "#c48ae8"
+      }
+    },
+    {
+      "name": "self, cls, this, noms magiques (C/C++, Python)",
+      "scope": [
+        "source.cpp variable.language.this",
+        "source.c variable.language.this",
+        "source.python variable.language.special",
+        "source.python support.variable.magic"
+      ],
+      "settings": {
+        "foreground": "#c48ae8",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Appels de fonction (C/C++, Python)",
+      "scope": [
+        "source.cpp entity.name.function",
+        "source.c entity.name.function",
+        "source.python meta.function-call.generic"
+      ],
+      "settings": {
+        "foreground": "#f39c12"
+      }
+    },
+    {
+      "name": "Classes, types, espaces de noms (C/C++, Python)",
+      "scope": [
+        "source.cpp entity.name.type",
+        "source.cpp entity.name.namespace",
+        "source.cpp entity.name.scope-resolution",
+        "source.c entity.name.type",
+        "source.c entity.name.namespace",
+        "source.c entity.name.scope-resolution",
+        "source.python entity.name.type.class",
+        "source.python entity.other.inherited-class",
+        "source.python support.type"
+      ],
+      "settings": {
+        "foreground": "#f39c12"
+      }
+    },
+    {
+      "name": "Mots-clés de déclaration (C/C++, Python)",
+      "scope": [
+        "source.cpp keyword.other.typedef",
+        "source.cpp keyword.other.using",
+        "source.c keyword.other.typedef",
+        "source.c keyword.other.using"
+      ],
+      "settings": {
+        "foreground": "#f39c12"
+      }
+    },
+    {
+      "name": "Directives, pragma, étiquettes (C/C++, Python)",
+      "scope": [
+        "source.cpp entity.other.attribute-name.pragma",
+        "source.cpp entity.name.label",
+        "source.c entity.other.attribute-name.pragma",
+        "source.c entity.name.label"
+      ],
+      "settings": {
+        "foreground": "#b5c400"
+      }
+    },
+    {
+      "name": "Préfixes et suffixes numériques (C/C++, Python)",
+      "scope": [
+        "source.cpp keyword.other.unit",
+        "source.c keyword.other.unit"
+      ],
+      "settings": {
+        "foreground": "#0ca1a6"
+      }
+    },
+    {
+      "name": "Caractères (C/C++, Python)",
+      "scope": [
+        "source.cpp string.quoted.single",
+        "source.c string.quoted.single"
+      ],
+      "settings": {
+        "foreground": "#0ca1a6"
+      }
+    },
+    {
+      "name": "Chaînes (C/C++, Python)",
+      "scope": [
+        "source.python string"
+      ],
+      "settings": {
+        "foreground": "#ffd23f"
+      }
+    },
+    {
+      "name": "Parenthèses et crochets (C/C++, Python)",
+      "scope": [
+        "source.cpp punctuation.definition.parameters",
+        "source.cpp punctuation.definition.begin.bracket",
+        "source.cpp punctuation.definition.end.bracket",
+        "source.cpp punctuation.definition.capture",
+        "source.c punctuation.definition.parameters",
+        "source.c punctuation.definition.begin.bracket",
+        "source.c punctuation.definition.end.bracket",
+        "source.c punctuation.definition.capture",
+        "source.python punctuation.parenthesis",
+        "source.python punctuation.definition.arguments",
+        "source.python punctuation.definition.parameters",
+        "source.python punctuation.definition.inheritance",
+        "source.python punctuation.definition.list",
+        "source.python punctuation.definition.dict",
+        "source.python punctuation.definition.tuple"
+      ],
+      "settings": {
+        "foreground": "#6cc0ff"
+      }
+    },
+    {
+      "name": "Opérateurs (C/C++, Python)",
+      "scope": [
+        "source.cpp punctuation.definition.lambda.return-type",
+        "source.c punctuation.definition.lambda.return-type"
+      ],
+      "settings": {
+        "foreground": "#6cc0ff"
+      }
     }
   ],
   "semanticTokenColors": {

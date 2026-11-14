@@ -479,6 +479,61 @@
             "settings": {
                 "foreground": "#333333ff"
             }
+        },
+        // --- Compléments Arduino (C/C++) et Python / MicroPython ---
+        {
+            "name": "Variables et noms (C/C++, Python)",
+            "scope": [
+                "source.cpp",
+                "source.c",
+                "source.python",
+                "source.cpp variable",
+                "source.c variable",
+                "source.python meta.fstring",
+                "source.python meta.function-call.arguments",
+                "source.python meta.indexed-name"
+            ],
+            "settings": {
+                "foreground": "#7a3e9d"
+            }
+        },
+        {
+            "name": "Attributs et membres (C/C++, Python)",
+            "scope": [
+                "source.cpp variable.other.property",
+                "source.cpp variable.other.member",
+                "source.cpp variable.other.object.property",
+                "source.c variable.other.property",
+                "source.c variable.other.member",
+                "source.c variable.other.object.property",
+                "source.python meta.attribute"
+            ],
+            "settings": {
+                "foreground": "#7a3e9d"
+            }
+        },
+        {
+            "name": "Appels de fonction (C/C++, Python)",
+            "scope": [
+                "source.cpp entity.name.function",
+                "source.c entity.name.function",
+                "source.python meta.function-call.generic"
+            ],
+            "settings": {
+                "foreground": "#aa3731"
+            }
+        },
+        {
+            "name": "Directives, pragma, étiquettes (C/C++, Python)",
+            "scope": [
+                "source.cpp entity.other.attribute-name.pragma",
+                "source.cpp entity.name.label",
+                "source.c entity.other.attribute-name.pragma",
+                "source.c entity.name.label"
+            ],
+            "settings": {
+                "foreground": "#4b69c6"
+            }
         }
     ],
     "colors": {

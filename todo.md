@@ -6,6 +6,20 @@
 
 ---
 
+# v2026.10.0.16
+
+1. ✅ Coloration complète Arduino (C/C++) et Python/MicroPython. Mesure faite avec le moteur TextMate de VS Code (`vscode-textmate` + grammaires `cpp` et `MagicPython` de l'installation) sur les deux exemples : jetons à la couleur par défaut avant → après : colorés 11 thèmes 530 → 0, Black 530 → 0, Arduino Light/Dark 601 → 0, Quietlight 179 → 0, Ice déjà 0 (inchangé).
+2. ✅ Bloc `// --- Compléments Arduino (C/C++) et Python / MicroPython ---` en fin de `tokenColors`. Toutes les règles sont préfixées `source.cpp` / `source.c` / `source.python` : aucun effet sur les autres langages. Racine `source.python`/`source.cpp` = couleur des variables (noms nus que la grammaire ne qualifie pas).
+3. ✅ Couleurs reprises de la palette de chaque thème (fonctions, types, constantes, ponctuation…). Teintes nouvelles seulement là où le thème n'avait rien : clairs variables `#375623`, attributs `#548235`, `self`/`this`/noms magiques `#c00000` italique ; Black `#9cdcfe`, `#a9d18e`, `#ff7c80` (ses variables `#ffffff` étaient indiscernables du défaut `#f6f6f6`).
+4. ✅ Filtre : une règle (ou un scope) qui changeait la couleur d'un jeton déjà coloré a été écartée. Contrôle final : 0 jeton déjà coloré modifié.
+5. ℹ️ Limite TextMate : `LED_PIN` (MAJUSCULES avec `_`) reste en couleur variable — la grammaire C++ le classe `snake-case` comme `ma_variable`. `HIGH`, `OUTPUT`, `A0` (MAJUSCULES sans `_`) prennent la couleur des constantes.
+6. ℹ️ Coloration sémantique (Pylance, C/C++) non activée dans les thèmes : inchangé.
+7. ✅ `tests/exemple-arduino.ino` et `tests/exemple-micropython.py` ; `tests/**` exclu du `.vsix`.
+8. ✅ CHANGELOG : section `2026.10.1` renommée `2026.11.0` (mois courant = novembre).
+9. ✅ `buildNumber` `2026.10.0.16`.
+
+---
+
 # v2026.10.0.15
 
 1. ✅ Ice : traits des tableaux de Claude Code invisibles. Leur CSS lit `inlineChatInput.border` → `input.border` → `widget.border` ; Ice avait `input.border` `#e0eff1` (quasi blanc). Ajout de `inlineChatInput.border` `#8fb5bb`, `input.border` laissé tel quel.

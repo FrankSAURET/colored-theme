@@ -1,9 +1,11 @@
 # Change Log
 
-## 2026.10.1 (prochaine publication)
+## 2026.11.0 (prochaine publication)
 
 ### Nouveauté
 - Nouveau thème clair « Colored Theme (Pink) » : barres rose tendre, textes et icônes rose foncé.
+- Arduino (C/C++) et Python / MicroPython : tous les éléments du code sont désormais colorés sur tous les thèmes (variables, attributs, `self`/`this`, constantes comme `HIGH` ou `OUTPUT`, appels de fonction Python, classes et espaces de noms, parenthèses et crochets, suffixes numériques…). Les autres langages ne changent pas.
+- Dossier `tests` : deux exemples (`exemple-arduino.ino`, `exemple-micropython.py`) qui montrent toutes les couleurs d'un thème.
 
 ### Modification
 - Thèmes clairs : quand la fenêtre n'a pas le focus, la barre de titre, la coque et la barre d'activité prennent une version très éclaircie de la couleur du thème. Une fenêtre active se repère d'un coup d'œil parmi plusieurs. Le titre y prend une version éclaircie de sa couleur active.
