@@ -5,6 +5,7 @@
 ### Nouveauté
 - Nouveau thème clair « Colored Theme (Pink) » : barres rose tendre, textes et icônes rose foncé.
 - Arduino (C/C++) et Python / MicroPython : tous les éléments du code sont désormais colorés sur tous les thèmes (variables, attributs, `self`/`this`, constantes comme `HIGH` ou `OUTPUT`, appels de fonction Python, classes et espaces de noms, parenthèses et crochets, suffixes numériques…). Les autres langages ne changent pas.
+- Coloration sémantique activée sur tous les thèmes : avec Pylance ou l'extension C/C++, les couleurs tiennent compte du sens du code (macros comme `LED_PIN` en couleur de constante, paramètres reconnus dans tout le corps de la fonction, classes importées comme `Pin` ou `Serial` en couleur de classe).
 - Dossier `tests` : deux exemples (`exemple-arduino.ino`, `exemple-micropython.py`) qui montrent toutes les couleurs d'un thème.
 
 ### Modification

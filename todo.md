@@ -6,6 +6,17 @@
 
 ---
 
+# v2026.10.0.17
+
+1. ✅ Coloration sémantique activée (`"semanticHighlighting": true`) dans les 16 thèmes ; Quietlight l'avait déjà.
+2. ✅ `semanticTokenColors` ajoutés partout, limités aux langages `python`, `cpp`, `c` (sélecteurs `type:langage`) : 32 jetons × 3 langages. Types standard + Pylance (`selfParameter`, `clsParameter`, `module`) + C/C++ (`macro`, `templateType`, `operatorOverload`…). Couleurs relevées sur la coloration TextMate actuelle de chaque thème (couleur, gras, italique) : `macro`, `enumMember`, `variable.readonly` → constante (`LED_PIN` enfin en couleur de constante) ; `parameter` → paramètre ; `selfParameter` → couleur de `self`.
+3. ✅ Arduino Light/Dark : l'entrée `"macro"` existante est conservée ; le bloc s'ajoute à la suite.
+4. ℹ️ L'activation vaut pour tous les langages : ailleurs qu'en Python/C/C++, VS Code se rabat sur les scopes TextMate équivalents, donc à peu près les mêmes couleurs qu'avant. À surveiller à l'écran (TypeScript, JavaScript).
+5. ℹ️ Non vérifiable par script (il faut Pylance / C/C++ en marche) : contrôle à l'écran avec `Developer: Inspect Editor Tokens and Scopes` sur `tests/`.
+6. ✅ `buildNumber` `2026.10.0.17`.
+
+---
+
 # v2026.10.0.16
 
 1. ✅ Coloration complète Arduino (C/C++) et Python/MicroPython. Mesure faite avec le moteur TextMate de VS Code (`vscode-textmate` + grammaires `cpp` et `MagicPython` de l'installation) sur les deux exemples : jetons à la couleur par défaut avant → après : colorés 11 thèmes 530 → 0, Black 530 → 0, Arduino Light/Dark 601 → 0, Quietlight 179 → 0, Ice déjà 0 (inchangé).
