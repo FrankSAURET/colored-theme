@@ -1,5 +1,18 @@
 # Change Log
 
+## 2026.11.1 (prochaine publication)
+
+### Nouveauté
+- Boutons secondaires (moniteur série, notifications, boîtes de dialogue) aux couleurs de chaque thème : même teinte que les boutons principaux, en plus sobre.
+
+### Modification
+- Contrastes revus sur les 16 thèmes : textes et icônes entre 7:1 et 12:1 sur leur fond (lisibles sans être agressifs), textes secondaires au moins 4,5:1, bordures au moins 3:1. Seule la luminosité change : chaque thème garde ses teintes.
+- Textes principaux trop durs (blanc pur sur noir, noir sur blanc) légèrement adoucis.
+
+### Correction
+- Moniteur série, Arduino Light et autres thèmes : l'icône d'un bouton coché ne disparaît plus au survol de la souris.
+- Barre d'activité, barre d'état, listes, menus, résultats de recherche, badges, info-bulles : textes et icônes peu lisibles corrigés sur tous les thèmes.
+
 ## 2026.11.0 (14 novembre 2026)
 
 ### Nouveauté

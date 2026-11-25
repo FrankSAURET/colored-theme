@@ -1,8 +1,27 @@
 # À faire
 
-1. ⬜ Publier `2026.11.0` : `npm run publier` (OVSX_PAT requis).
+1. ✅ Publier `2026.11.0` (publiée le 14/11/2026).
 2. ⬜ Vérifier à l'écran les 15 thèmes sous modernUI (coque, poignée, onglets), surtout Quietlight, Black et Arduino.
-3. ⏳ README : pas de capture des thèmes Ice et Pink (section à ajouter avec une image).
+3. ⬜ Vérifier à l'écran les contrastes corrigés (v2026.11.0.19) : survols et surlignages (voir la liste dans la section v2026.11.0.19).
+4. ⏳ README : pas de capture des thèmes Ice et Pink (section à ajouter avec une image).
+5. ⏳ Fushia : `"name": "auburn-color-theme"` dans `fushia-color-theme.json` (copie d'Auburn). Sans effet à l'écran (le libellé vient de `package.json`), à corriger.
+6. ⏳ Contrastes non couverts par le contrôle : couleurs ANSI du terminal, `tokenColors` / `semanticTokenColors` de l'éditeur.
+
+---
+
+# v2026.11.0.19
+
+1. ✅ Cause de l'icône invisible du moniteur série (Arduino Light) : bouton coché + survolé = icône `button.foreground` `#f7f9f9` sur `button.secondaryHoverBackground`. Aucun thème ne définissait cette clé ; défaut VS Code `lighten(list.hoverBackground, 0.2)` = `#ffffff` → 1,06:1. Correction : boutons secondaires dérivés des boutons principaux (même teinte, saturation × 0,4), puis contraste ajusté. Arduino Light : survol `#1c4143`, 10,53:1.
+2. ✅ `scripts/extraire-defauts-vscode.mjs` → `scripts/defauts-vscode.json` : 980 couleurs par défaut de VS Code 1.147 (arbres `darken`, `transparent`, références…), évaluées thème par thème.
+3. ✅ `scripts/contraste-lib.mjs` + `scripts/controle-contrastes.mjs` (`npm run contrastes`) : 2470 paires avant-plan/fond, transparence composée sur la pile de calques, éléments désactivés exclus. Seuils : texte et icônes 7:1 à 12:1, secondaires ≥ 4,5:1, bordures ≥ 3:1. Code de sortie 1 sous le minimum.
+4. ✅ `scripts/corriger-contrastes.mjs` (`--ecrire`) : une clé par tour, luminosité HSL seule (teinte et saturation d'origine), surfaces de base intouchables (`editor`, `sideBar`, `panel`, `terminal`), survols et sélections gardés visibles, fonds bornés à ±0,3 de luminosité (±0,55 pour les défauts VS Code et les fonds de fenêtre inactive). Clés absentes ajoutées en tête de `colors` sous un commentaire.
+5. ✅ Résultat par thème (paires sous le minimum avant → après, clés modifiées ou ajoutées) : Arduino Dark 43 → 0 (42) ; Black 46 → 0 (45) ; Arduino Light 86 → 0 (68) ; Amber 79 → 0 (65) ; Amethyst 58 → 0 (54) ; Auburn 73 → 0 (65) ; China Blue 67 → 0 (60) ; Cognac 68 → 0 (62) ; Fushia 72 → 0 (69) ; Green Malachite 73 → 0 (64) ; Ice 113 → 0 (89) ; Peacock 73 → 0 (64) ; Pink 71 → 0 (65) ; Quiet Light 91 → 0 (55) ; Red 75 → 0 (70) ; Yellow 66 → 0 (60). Textes principaux au-dessus de 12:1 : 58 → 0.
+6. ℹ️ Exceptions assumées : textes secondaires (descriptions, désaccentués, indices) à 4,5:1 minimum ; bordures à 3:1 minimum.
+7. ℹ️ Couleurs vives retouchées : Fushia barre d'activité `#db0073` → `#ff75bd` (icônes violet foncé conservées) ; Red barre d'activité `#ff3300` → `#991f00` ; Ice survol des boutons `#00cccc` → `#005a5a` ; barre d'état « débogage » `#cc6633` → `#e1a485` (11 thèmes colorés) ; fonds de barre d'activité « fenêtre inactive » foncés sur les thèmes colorés ; bannière (défaut VS Code) éclaircie ou foncée selon le thème.
+8. ⏳ À vérifier à l'écran : Red survol de la barre d'activité presque transparent (`#a1a1a103`) ; Black `toolbar.activeBackground` `#03030458` ; Arduino Light résultats de recherche `#efefeb` / `#ffc7a359` ; Ice `findMatchHighlightBackground` `#3ed3e740` ; Amber/Yellow boutons secondaires très pâles.
+9. ✅ `npm test` = validation JSONC + contrôle des contrastes. `.vscodeignore` : `scripts/**`, `A Examiner/**`, `Archives/**` exclus du `.vsix`.
+10. ℹ️ `scripts/_dbg.mjs` (mise au point) déplacé dans `A Examiner/scripts/`.
+11. ✅ `buildNumber` `2026.11.0.19`.
 
 ---
 

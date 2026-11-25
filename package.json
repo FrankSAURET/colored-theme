@@ -6,7 +6,7 @@
     "publisher": "electropol-fr",
     "private": true,
     "version": "2026.11.0",
-    "buildNumber": "2026.11.0.18",
+    "buildNumber": "2026.11.0.19",
     "main": "./dist/extension.js",
     "activationEvents": [
         "onStartupFinished"
@@ -118,6 +118,8 @@
     "scripts": {
         "compile": "tsc -p ./",
         "validate:themes": "node ./scripts/validate-themes.js",
+        "contrastes": "node scripts/controle-contrastes.mjs",
+        "test": "node ./scripts/validate-themes.js && node scripts/controle-contrastes.mjs",
         "vscode:prepublish": "npm run compile",
         "publier": "node scripts/publier.mjs",
         "package": "node scripts/paquet.mjs"

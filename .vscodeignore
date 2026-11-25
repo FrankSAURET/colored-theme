@@ -3,3 +3,6 @@
 .gitignore
 image/**
 tests/**
+scripts/**
+A Examiner/**
+Archives/**
